@@ -1,22 +1,126 @@
 .service {
-    height: 100rem;
-    /* background-image: url(../../../img/jpy/sbg1.png), url(../../../img/jpy/sbg2.png), url(../../../img/jpy/sbg3.png) ;
-    background-position: left top , center top, right top; */
-    /* background-repeat: no-repeat, repeat; */
+    height: 200vh;
+    background-image: url("../../../img//jpy/sbg1.png"), url("../../../img//jpy/sbg2.png"), url("../../../img//jpy/sbg3.png");
+    background-position: -40% 50%, 60% 60%, 160px 0px;
+    background-repeat: no-repeat;
+    background-size: 60%, 180% 70%,80%;
     padding: 0 6rem;
 
 }
-.service .jpy_serviceWrapper .jpy_serviceCard {
+.service .jpy_serviceWrapper .jpy_serviceCard1 {
     background: url(../../../img/jpy/service1.png);
     background-repeat: no-repeat;
     background-size:600px auto;
     height: 500px;
+    width: 603px;
+
+}
+.service .jpy_serviceWrapper .jpy_serviceCard2 {
+    background: url(../../../img/jpy/service3.png);
+    background-repeat: no-repeat;
+    background-size:600px auto;
+    height: 500px;
+    width: 603px;
+    margin-top: -7rem;
+    
    
     
 }
-.jpy_serviceCard h2 {
+.service .jpy_serviceWrapper .jpy_serviceCard3 {
+    background: url(../../../img/jpy/service4.png);
+    background-repeat: no-repeat;
+    background-size:600px auto;
+    height: 500px;
+    width: 603px;
+    margin-top: -7rem;
+    
+   
+    
+}
+.jpy_serviceCard2__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.jpy_serviceCard2__right{
+    display: flex;
+    justify-content: flex-end;
+}
+.jpy_serviceCard__para p{
+    width: 80%;
+    color: #ffff;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2;
+}
+.jpy_serviceCard__para{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.jpy_serviceCard1 h2, .jpy_serviceCard2 h2, .jpy_serviceCard3 h2 {
     color: #ffff;
     padding-left:30px;
     font-weight: 700;
     font-size: 35px;
+    /* font: normal normal bold 50px/68px Avenir Next; */
+    opacity: 1;
 }
+
+
+
+
+.jpy_serviceWrapper2{
+background-image: url("../../../img/jpy/service2.png");
+background-repeat: no-repeat;
+height: 50rem;
+background-size: 100% 100%;
+margin-left: -20rem;
+margin-top: -15rem;
+width: 150%;
+}
+.jpy_serviceWrapper2__cards{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    align-items: center;
+    color: #ffff;
+    justify-content: center;
+    text-align: justify;
+}
+.jpy_serviceWrapper2__card{
+    padding: 20px;
+    margin-top: 20rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jpy_serviceWrapper2__card p{
+    line-height: 2;
+    font-size: large;
+    
+}
+.jpy_serviceWrapper2__card__circle{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #ffff;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+margin-bottom: 5rem;
+margin-top: -3rem;
+
+}
+.jpy_serviceWrapper2__card__circle p{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+

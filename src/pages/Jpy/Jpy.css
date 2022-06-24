@@ -1,8 +1,12 @@
-
 .heroBackground {
     background-image: url('../../img//jpy//herobg.png');
     background-repeat: no-repeat;
-     background-position: center;
-     padding-bottom: 90px;
-  
+    background-position: center;
+    padding-bottom: 90px;
+
+}
+
+body {
+    background: transparent linear-gradient(180deg, var(--unnamed-color-9da3aa) 0%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #9DA3AA 0%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
 }
