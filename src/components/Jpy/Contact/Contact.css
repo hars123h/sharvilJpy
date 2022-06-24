@@ -1,0 +1,94 @@
+.jpyContact {
+    color: black;
+    left: 288px;
+    width: 1407px;
+    height: 800px;
+    background: #E2F0FA 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px #00000029;
+    border-radius: 72px;
+    opacity: 0.55;
+    padding: 20px;
+}
+
+.jpyContact__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+.jpyContact__input {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2rem;
+
+}
+
+.jpyContact__input input {
+    flex: .5;
+    height: 52px;
+    background: white;
+    box-shadow: 5px 5px 5px #00000029;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+
+.jpyContact__input textarea {
+    width: 100%;
+}
+
+.jpyContact__input1 {
+    margin-left: 7rem;
+}
+
+.jpyContact__input2 {
+    margin-left: 4rem;
+}
+
+.jpyContact__input3 {
+    margin-left: 5.5rem;
+}
+
+.jpyContact__input4 {
+    margin-left: .5rem;
+}
+
+.jpyContact h2 {
+    text-align: center;
+    color: black;
+    opacity: 5;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.jpyBottomNav ul {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+.jpyBottomNav ul li {
+    top: 6292px;
+    left: 619px;
+    height: 41px;
+    text-align: center;
+    font: normal normal bold 30px/41px Avenir Next;
+    font-size: 25px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.jpyBottomNav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+.jpyBottomNav ul li a:hover{
+    color: #066363 ;
+}

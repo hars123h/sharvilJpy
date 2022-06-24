@@ -1,6 +1,7 @@
 import React from 'react'
 import './Service.css'
 import img1 from "../../../img/jpy/service2.png"
+import Contact from '../Contact/Contact'
 
 const Service = () => {
   return (
@@ -31,7 +32,6 @@ const Service = () => {
           </div>
         </div>
         <div className="jpy_serviceWrapper2">
-          {/* <img className='jpy_serviceWrapper2__backimage' src={img1} alt="" /> */}
           <div className="jpy_serviceWrapper2__cards">
             <div className="jpy_serviceWrapper2__card">
               <div className="jpy_serviceWrapper2__card__circle">
@@ -68,11 +68,22 @@ const Service = () => {
               <h3>サポート</h3>
               <p>商品やコンサルを納品して終わりではありません。無期限でお客様のサポートをさせていただきます。</p>
             </div>
-
-
-
           </div>
         </div>
+        <div className="service__webpageDesigne">
+          <div className="service__webpageDesigne__left">
+            <p className='service__webpageDesigne__left__circle'>😍</p>
+            <p className='service__webpageDesigne__left__circle'>🤖</p>
+            <p className='service__webpageDesigne__left__circle'>🤡</p>
+            <p className='service__webpageDesigne__left__circle'>👺</p>
+            <p className='service__webpageDesigne__left__circle'>😎</p>
+          </div>
+          <div className="service__webpageDesigne__rightBox">
+            <h2>WEBPAGE DESIGN</h2>
+            <p>ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。 そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+          </div>
+        </div>
+        <Contact/>
       </div>
     </>
   )

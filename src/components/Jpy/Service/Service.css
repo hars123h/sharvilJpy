@@ -3,93 +3,112 @@
     background-image: url("../../../img//jpy/sbg1.png"), url("../../../img//jpy/sbg2.png"), url("../../../img//jpy/sbg3.png");
     background-position: -40% 50%, 60% 60%, 160px 0px;
     background-repeat: no-repeat;
-    background-size: 60%, 180% 70%,80%;
+    background-size: 60%, 180% 70%, 80%;
     padding: 0 6rem;
+    margin-top: 5rem;
 
 }
+
 .service .jpy_serviceWrapper .jpy_serviceCard1 {
     background: url(../../../img/jpy/service1.png);
     background-repeat: no-repeat;
-    background-size:600px auto;
+    background-size: 600px auto;
     height: 500px;
     width: 603px;
 
 }
+
 .service .jpy_serviceWrapper .jpy_serviceCard2 {
     background: url(../../../img/jpy/service3.png);
     background-repeat: no-repeat;
-    background-size:600px auto;
+    background-size: 600px auto;
     height: 500px;
     width: 603px;
     margin-top: -7rem;
-    
-   
-    
+
+
+
 }
+
 .service .jpy_serviceWrapper .jpy_serviceCard3 {
     background: url(../../../img/jpy/service4.png);
     background-repeat: no-repeat;
-    background-size:600px auto;
+    background-size: 600px auto;
     height: 500px;
     width: 603px;
     margin-top: -7rem;
-    
-   
-    
+
+
+
 }
-.jpy_serviceCard2__center{
+
+.jpy_serviceCard2__center {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.jpy_serviceCard2__right{
+
+.jpy_serviceCard2__right {
     display: flex;
     justify-content: flex-end;
 }
-.jpy_serviceCard__para p{
+
+.jpy_serviceCard__para p {
     width: 80%;
     color: #ffff;
     padding: 20px;
     text-align: justify;
     line-height: 2;
+    font-size: 20px;
 }
-.jpy_serviceCard__para{
+
+.jpy_serviceCard__para {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.jpy_serviceCard1 h2, .jpy_serviceCard2 h2, .jpy_serviceCard3 h2 {
+
+.jpy_serviceCard1 h2,
+.jpy_serviceCard2 h2,
+.jpy_serviceCard3 h2 {
     color: #ffff;
-    padding-left:30px;
+    padding-left: 30px;
     font-weight: 700;
     font-size: 35px;
-    /* font: normal normal bold 50px/68px Avenir Next; */
+    font: normal normal bold 50px/68px;
     opacity: 1;
+   
+}
+.jpy_serviceCard2 h2{
+    color: #000;
 }
 
 
 
 
-.jpy_serviceWrapper2{
-background-image: url("../../../img/jpy/service2.png");
-background-repeat: no-repeat;
-height: 50rem;
-background-size: 100% 100%;
-margin-left: -20rem;
-margin-top: -15rem;
-width: 150%;
+.jpy_serviceWrapper2 {
+    background-image: url("../../../img/jpy/service2.png");
+    background-repeat: no-repeat;
+    height: 50rem;
+    background-size: 100% 120%;
+    margin-left: -20rem;
+    margin-top: -15rem;
+    width: 150%;
 }
-.jpy_serviceWrapper2__cards{
+
+.jpy_serviceWrapper2__cards {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     position: relative;
     align-items: center;
     color: #ffff;
     justify-content: center;
     text-align: justify;
+    margin-right: 5rem;
 }
-.jpy_serviceWrapper2__card{
+
+.jpy_serviceWrapper2__card {
     padding: 20px;
     margin-top: 20rem;
     width: 17rem;
@@ -98,29 +117,86 @@ width: 150%;
     justify-content: center;
     align-items: center;
 }
-.jpy_serviceWrapper2__card p{
+
+.jpy_serviceWrapper2__card p {
     line-height: 2;
     font-size: large;
-    
-}
-.jpy_serviceWrapper2__card__circle{
-width: 50px;
-height: 50px;
-border-radius: 50%;
-background-color: #ffff;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 20px;
-margin-bottom: 5rem;
-margin-top: -3rem;
 
 }
-.jpy_serviceWrapper2__card__circle p{
+
+.jpy_serviceWrapper2__card__circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 3rem;
+    /* margin-top: -3rem; */
+
+}
+
+.jpy_serviceWrapper2__card__circle p {
     color: black;
     letter-spacing: 2px;
     font-weight: 800;
     margin-top: 1rem;
 }
 
+.service__webpageDesigne__rightBox {
+    width: 867px;
+    height: 639px;
+    box-shadow: 0px 0px 10px 5px #00000029;
+    border-radius: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+.service__webpageDesigne__rightBox p {
+    width: 693px;
+    height: 408px;
+    color: #000000;
+    font: normal normal bold 23px/55px Avenir Next;
+    letter-spacing: 4.6px;
+    opacity: 1;
+    text-align: justify;
+}
+
+.service__webpageDesigne__rightBox h2 {
+    width: 484px;
+    height: 55px;
+    color: #000000;
+    font: normal normal bold 40px/55px Avenir Next;
+    letter-spacing: 8px;
+    opacity: 1;
+}
+
+.service__webpageDesigne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+
+}
+.service__webpageDesigne__left__circle{
+    width: 100px;
+    height: 100px;
+    background-color: #E2F0FA;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+.service__webpageDesigne__left {
+    margin-right: 10rem;
+}
