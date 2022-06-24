@@ -1,0 +1,22 @@
+.service {
+    height: 100rem;
+    /* background-image: url(../../../img/jpy/sbg1.png), url(../../../img/jpy/sbg2.png), url(../../../img/jpy/sbg3.png) ;
+    background-position: left top , center top, right top; */
+    /* background-repeat: no-repeat, repeat; */
+    padding: 0 6rem;
+
+}
+.service .jpy_serviceWrapper .jpy_serviceCard {
+    background: url(../../../img/jpy/service1.png);
+    background-repeat: no-repeat;
+    background-size:600px auto;
+    height: 500px;
+   
+    
+}
+.jpy_serviceCard h2 {
+    color: #ffff;
+    padding-left:30px;
+    font-weight: 700;
+    font-size: 35px;
+}

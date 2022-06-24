@@ -1,0 +1,32 @@
+.hero {
+    padding: 19rem 5rem 0 5rem;
+}
+.hero h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 5px;
+    color: white;
+}
+.jpy_heroBottom {
+ margin-top:11rem;
+}
+.jpy_heroBottom h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: end;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+.jpy_heroBottom img{
+    margin-top: -50px !important;
+    width: 330px;
+    height: auto;
+    
+}

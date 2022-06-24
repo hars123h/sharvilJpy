@@ -1,0 +1,25 @@
+.footer{
+    /* background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%); */
+}
+.footerLogo {
+    display: flex;
+    justify-content: center;
+}
+.footerLogo img {
+    width: 150px;
+    height: auto;
+}
+.copyright {
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%); 
+    color: #fff;
+    margin-bottom: -20px !important;
+}

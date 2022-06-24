@@ -1,0 +1,281 @@
+.contactSection {
+    position: relative;
+}
+
+/* section backgrounds */
+
+.contactSection-center-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.contactSection-with-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactSection-fixed-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+
+/* overlay */
+
+
+.color-red {
+    color: #066363 !important;
+}
+
+
+.dtr-py-100 {
+    padding-top: 100px !important
+}
+
+.dtr-mt-30,
+.dtr-my-30 {
+    margin-top: 30px !important
+}
+
+.dtr-mt-100,
+.dtr-my-100 {
+    margin-top: 100px !important
+}
+.dtr-mt-20,
+.dtr-my-20 {
+    margin-top: 20px !important
+}
+.dtr-mr-100,
+.dtr-mx-100 {
+    margin-right: 100px !important
+}
+.dtr-tagline {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.contactSection-heading {
+    margin-bottom: 20px;
+}
+
+
+
+.dtr-accordion {
+    border: 0;
+}
+
+.dtr-accordion .accordion-item {
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.dtr-accordion .accordion-body {
+    padding: 5px 30px 20px 30px;
+    border: 0;
+    border-radius: 0 0 4px 4px;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%);
+    color: #fff;
+}
+
+.dtr-accordion .accordion-button {
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #fff;
+    color: #34222e;
+}
+
+
+
+.dtr-accordion .accordion-button:focus {
+    border: 0 !important;
+    outline: 0 !important;
+}
+
+.dtr-accordion .accordion-button:not(.collapsed) {
+    border-radius: 4px 4px 0 0;
+    box-shadow: none !important;
+}
+
+.dtr-accordion .accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #34222e;
+}
+
+
+
+
+.labelColor {
+    color: white;
+}
+.inputBg {
+    background-color: #fff;
+    border-color: #fff;
+}
+.btnFont{
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #066363;
+    font-weight: 500 !important;
+    /* Firefox */
+}
+.form-control:focus {
+    box-shadow:none;
+ }
+ .form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #fff!important;
+  border-color: #fff;
+  color: #34222e;
+}
+
+.btnCustom {
+    background-color: #fff;
+    border-color: #fff;
+    color: #34222e;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+/*----------------------------------------*/
+
+/*----- 3 Font Settings -----*/
+
+/*----------------------------------------*/
+
+
+
+.dtr-btn i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.dtr-btn-rounded {
+    border-radius: 4px;
+}
+
+
+
+.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    color: #34222e;
+}
+
+.btn-white:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #34222e;
+}
+
+.dtr-btn,
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    text-decoration: none;
+    outline: none;
+    -webkit-backface-visibility: hidden;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+
+.dtr-btn:focus {
+    outline: none;
+}
+.btn-red-outline {
+    background-color: #fff;
+    border-color: #066363;
+    color: #066363;
+}
+
+.btn-red-outline:hover {
+    background-color: #066363;
+    border-color: #066363;
+    color: #fff;
+}
+
+.btn-red-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    color: #066363;
+}
+
+.btn-red-transparent:hover {
+    background-color: #066363;
+    border-color: #066363;
+    color: #fff;
+}
+
+.dtr-small-box {
+    padding: 50px;
+}
+
+.dtr-rounded-img,
+.dtr-rounded-img img,
+.dtr-rounded {
+    border-radius: 8px;
+}
+
+.bg-red {
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#066636), color-stop(51%, #3fb0b0), to(#066636));
+    background-image: -webkit-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -moz-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
+    background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%);
+}
+
+.color-white,
+.color-white h1,
+.color-white h2,
+.color-white h3,
+.color-white h4,
+.color-white h5,
+.color-white h6,
+.color-white a {
+    color: #fff;
+}
+.accordion-body {
+    font-size: 17px;
+}
+
