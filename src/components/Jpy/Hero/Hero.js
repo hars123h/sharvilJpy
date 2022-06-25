@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <>
+        <div className='hero__main'>
             <div className="hero">
                 <h2>全ての課題を <br />
                     システムで解決する。
@@ -25,7 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -4,55 +4,64 @@ import "./Contact.css"
 function Contact() {
     return (
         <div id='contact' className='jpyContact__container'>
+
             <div className="jpyContact">
-                <h2>CONTACT</h2>
+
                 <form>
-                    <div className="jpyContact__input">
-                        <h3>貴社名</h3>
-                        <input className='jpyContact__input1' type="text" />
+                    <h2>CONTACT</h2>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">貴社名</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext"   />
+                        </div>
                     </div>
-                    <div className="jpyContact__input">
-                        <h3>ご担当者名</h3>
-                        <input className='jpyContact__input2' type="text" />
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">ご担当者名</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"   />
+                        </div>
                     </div>
-                    <div className="jpyContact__input">
-                        <h3>電話番号</h3>
-                        <input className='jpyContact__input3' type="text" />
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">電話番号</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control"   />
+                        </div>
                     </div>
-                    <div className="jpyContact__input">
-                        <h3>メールアドレス</h3>
-                        <input className='jpyContact__input4' type="email" />
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">メールアドレス</label>
+                        <div class="col-sm-10">
+                            <input type="Email" class="form-control"  />
+                        </div>
                     </div>
-                    <div className="jpyContact__input">
-                        <h3>お問い合わせ内容</h3>
-                        <textarea style={{
-                            flex: ".5",
-                            width: "100%",
-                            background: "white",
-                            boxShadow: " 5px 5px 5px #00000029",
-                            borderRadius: "17px",
-                            border: "none",
-                            outline: "none",
-                            padding: " 5px"
-                        }} type="text"></textarea>
+                    <div class="form-group row">
+                        <label  class="col-sm-2 col-form-label">お問い合わせ内容</label>
+                        <div class="col-sm-10">
+                            <textarea type="text" class="form-control"  />
+                        </div>
+                    </div>
+                    <div class="form-group row jpyContact__button">
+                        <label  class="col-sm-2 col-form-label"></label>
+                        <div class="col-sm-10">
+                            <button>送信</button>
+                        </div>
                     </div>
                 </form>
             </div>
             <div className="jpyBottomNav">
 
-                <ul className=" "  >
-                    <li >
+                <ul>
+                    <li className="nav-item">
                         <a className="nav-link  pagescroll" href="#home">Home</a>
                     </li>
                     <li >
                         <a className="nav-link pagescroll scrollupto" href="#about">About Us</a>
                     </li>
 
-                    <li >
+                    <li className="nav-item">
                         <a className="nav-link pagescroll" href="#portfolio">Portfolio</a>
                     </li>
 
-                    <li >
+                    <li className="nav-item">
                         <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                     </li>
                 </ul>

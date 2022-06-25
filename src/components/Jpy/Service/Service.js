@@ -6,6 +6,9 @@ import Contact from '../Contact/Contact'
 const Service = () => {
   return (
     <>
+    <div className="shadow">
+      
+    </div>
       <div className="service">
         <div className="jpy_serviceWrapper">
           <div className="jpy_serviceCard1">
@@ -72,14 +75,14 @@ const Service = () => {
         </div>
         <div className="service__webpageDesigne">
           <div className="service__webpageDesigne__left">
-            <p className='service__webpageDesigne__left__circle'>😍</p>
-            <p className='service__webpageDesigne__left__circle'>🤖</p>
-            <p className='service__webpageDesigne__left__circle'>🤡</p>
-            <p className='service__webpageDesigne__left__circle'>👺</p>
-            <p className='service__webpageDesigne__left__circle'>😎</p>
+            <p className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
+            <p className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
+            <p className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
+            <p className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
+            <p className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
           </div>
           <div className="service__webpageDesigne__rightBox">
-            <h2>WEBPAGE DESIGN</h2>
+            <h3>WEBPAGE DESIGN</h3>
             <p>ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。 そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
           </div>
         </div>
