@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Header = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const Header = () => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll"> <a href="/jpy">日本語</a>| <a href='/'>Eng</a></p> 
+                  <p className="nav-link pagescroll"> <a href='/jpy' style={{cursor:"pointer"}} >日本語</a>| <a href='/'>Eng</a></p> 
                 </li>
               </ul>
             </div>

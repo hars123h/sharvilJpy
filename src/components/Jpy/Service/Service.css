@@ -11,6 +11,7 @@
     /* height: auto;   */
 
 }
+
 .service .jpy_serviceWrapper .jpy_serviceCard1 {
     background: url(../../../img/jpy/service1.png);
     background-repeat: no-repeat;
@@ -78,7 +79,7 @@
     padding-left: 30px;
     font-weight: 700;
     font-size: 35px;
-    font: normal normal bold 40px/55px ;
+    font: normal normal bold 40px/55px;
     opacity: 1;
 
 }
@@ -98,6 +99,7 @@
     margin-left: -20rem;
     margin-top: -15rem;
     width: 150%;
+    overflow-x: hidden;
 }
 
 .jpy_serviceWrapper2__cards {
@@ -150,7 +152,7 @@
 
 .service__webpageDesigne__rightBox {
     width: 867px;
-    height: 639px;
+    height: 567px;
     box-shadow: 0px 0px 10px 5px #00000029;
     border-radius: 96px;
     display: flex;
@@ -158,18 +160,18 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: 30px;
 }
 
 .service__webpageDesigne__rightBox p {
     width: 693px;
-    height: 408px;
+    height: auto;
     color: #000000;
     font: normal normal bold 23px/55px Avenir Next;
     letter-spacing: 4.6px;
     opacity: 1;
-    text-align: justify;
+    text-align: justify; 
 }
-
 .service__webpageDesigne__rightBox h3 {
     color: #000000;
     letter-spacing: 3px;
@@ -178,6 +180,19 @@
     font-weight: 700;
     margin-bottom: 5px;
 }
+.service__webpageDesigne__rightBox__data{
+
+    opacity: 0;
+    transition: visibility 0s 750ms, opacity 750ms cubic-bezier(.645, .045, .355, .2);
+    visibility: hidden;
+    
+}
+.service__webpageDesigne__rightBox__datashow{
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 750ms cubic-bezier(.645, .045, .355, 1) 750ms;
+    visibility: visible;
+}
+
 
 .service__webpageDesigne {
     display: flex;
@@ -205,4 +220,92 @@
 
 .service__webpageDesigne__left {
     margin-right: 10rem;
+}
+
+@media screen and (max-width:1024px) {
+    .service__webpageDesigne {
+        flex-direction: column;
+
+
+    }
+
+    .service__webpageDesigne__left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    .service__webpageDesigne__rightBox p {
+        font: normal normal bold 18px/35px Avenir Next;
+
+    }
+
+    .service__webpageDesigne__rightBox {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .jpy_serviceCard__para p {
+
+        padding: 10px, 10px;
+        font-size: 15px;
+    }
+
+    .jpy_serviceCard1 h2,
+    .jpy_serviceCard2 h2,
+    .jpy_serviceCard3 h2 {
+
+        font-size: 20px;
+        font: normal normal bold 40px/55px;
+        opacity: 1;
+
+    }
+    .service .jpy_serviceWrapper .jpy_serviceCard1 {
+        width: 268px;
+        
+    
+    
+    
+    }
+    .service__webpageDesigne__left__circle {
+        width: 80px;
+        height: 80px;
+        background-color: #E2F0FA;
+        border-radius: 50%;
+        position: relative;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 0rem; */
+        margin-left: -1rem;
+        cursor: pointer;
+    }
+    .service__webpageDesigne__left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10rem;
+    }
+    .service__webpageDesigne__rightBox p {
+        font: normal normal bold 16px/27px Avenir Next;
+        width: 25rem;
+    }
+    .service__webpageDesigne__rightBox h3 {
+        font-size: 28px;
+    }
+    .service__webpageDesigne__rightBox{
+        border-radius: 45px;
+    }
+    .service {
+        background-position: -31% 7%, 60% 60%, 174px -10px;
+        background-size: 57%, 199% 64%, 82%;
+    }
 }

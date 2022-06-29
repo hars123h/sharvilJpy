@@ -13,3 +13,31 @@
     background: transparent linear-gradient(180deg, #9DA3AA 15%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
     height: 570vh;
 }
+
+@media screen and (max-width:1024px) {
+    .JpyBody{
+
+        height: 780vh;
+    }
+    
+}
+@media screen and (max-height:560px) {
+    .JpyBody{
+
+        height: 780vh;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .JpyBody{
+
+        height: 810vh;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .JpyBody{
+
+        height: 961vh;
+    }
+}

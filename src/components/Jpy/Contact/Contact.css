@@ -45,8 +45,17 @@ textarea {
     opacity: 1 !important;
     color: #000000;
     font-size: large;
+    width: 100%;
 
 
+}
+.col-sm-10 input::-webkit-input-placeholder{
+    display: none;
+    opacity: 0;
+}
+.col-sm-10 textarea::-webkit-input-placeholder{
+    display: none;
+    opacity: 0;
 }
 
 .form-group {
@@ -126,4 +135,32 @@ textarea {
 
 .jpyBottomNav ul li a:hover {
     color: #066363;
+}
+@media screen and (max-width:775px) {
+   
+    .jpyContact form {
+        color: black;
+        width: 100%;
+    }
+    .jpyContact form label{
+        font-size: 10px;
+    }
+    .jpyContact form h2{
+        font-size: 20px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:505px) {
+    .form-group label {
+        display:none;
+    }
+    .col-sm-10 input::-webkit-input-placeholder{
+        
+        opacity: 0.8;
+    }
+    .col-sm-10 textarea::-webkit-input-placeholder{
+        
+        opacity: 0.8;
+    }
 }
