@@ -191,6 +191,7 @@
     opacity: 1;
     transition: visibility 0s linear 0s, opacity 750ms cubic-bezier(.645, .045, .355, 1) 750ms;
     visibility: visible;
+    
 }
 
 
