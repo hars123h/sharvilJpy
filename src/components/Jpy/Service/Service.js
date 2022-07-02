@@ -82,8 +82,8 @@ const Service = () => {
         </div>
         <div className="service__webpageDesigne">
           <div className="service__webpageDesigne__left">
-            <p onClick={()=>{setFade(fade =="service__webpageDesigne__rightBox__datashow"?"service__webpageDesigne__rightBox__data":"service__webpageDesigne__rightBox__datashow");setWebData(webPagedata[0].para);}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
-            <p onClick={()=>{setFade("service__webpageDesigne__rightBox__datashow");setWebData(webPagedata[1].para);}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
+            <p onClick={()=>{setWebData(webPagedata[0].para)}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
+            <p onClick={()=>{setWebData(webPagedata[1].para)}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
             <p onClick={()=>setWebData(webPagedata[2].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
             <p onClick={()=>setWebData(webPagedata[3].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
             <p onClick={()=>setWebData(webPagedata[4].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>

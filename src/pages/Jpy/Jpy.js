@@ -21,24 +21,19 @@ function Jpy() {
     }, [])
     return (
         <div className="JpyBody">
-            {
-                loader ? <div class="">
-                    <div class="loader-inner">
-                        <div class="Loaderbox"><h3>Loading....</h3> </div>
-                    </div>
+            <Header />
+            <div data-aos="zoom-out"  >
+                <div className="heroBackground">
+
+                    <Hero />
+
                 </div>
-                    : <div data-aos="zoom-out"  >
-                        <div className="heroBackground">
-                            <Header />
-                            <Hero />
+                <div className="JpyBody__shadow">
 
-                        </div>
-                        <div className="JpyBody__shadow">
+                </div>
+                <Service />
+            </div>
 
-                        </div>
-                        <Service />
-                    </div>
-            }
         </div>
 
     );
