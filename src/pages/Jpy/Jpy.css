@@ -11,7 +11,7 @@
 .JpyBody{
 
     background: transparent linear-gradient(180deg, #9DA3AA 15%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
-    height: 570vh;
+    height: 620vh;
 }
 
 @media screen and (max-width:1024px) {
