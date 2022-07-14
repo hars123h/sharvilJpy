@@ -5,6 +5,7 @@ import Service from "../../components/Jpy/Service/Service";
 import './Jpy.css';
 import "aos/dist/aos.css"
 import Aos from "aos";
+import Contact from "../../components/Jpy/Contact/Contact";
 
 
 
@@ -20,19 +21,16 @@ function Jpy() {
         })
     }, [])
     return (
-        <div className="JpyBody">
+        <div className="JpyBody" data-aos="zoom-out">
             <Header />
-            <div data-aos="zoom-out"  >
-                <div className="heroBackground">
 
-                    <Hero />
+            <div className="heroBackground">
 
-                </div>
-                <div className="JpyBody__shadow">
+                <Hero />
 
-                </div>
-                <Service />
             </div>
+            <Service />
+
 
         </div>
 

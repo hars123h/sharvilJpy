@@ -5,11 +5,6 @@
     background-repeat: no-repeat;
     background-size: 60%, 180% 70%, 80%;
     padding: 0 6rem;
-    /* background: linear-gradient(#9DA3AA,#E2F0FA) ; */
-    /* background: transparent linear-gradient(180deg, #9DA3AA 55%, #E2F0FA 100%) 0% 0% no-repeat padding-box; */
-
-    /* height: auto;   */
-
 }
 
 .service .jpy_serviceWrapper .jpy_serviceCard1 {
@@ -121,14 +116,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden ;
+    overflow-x: hidden;
 }
 
 .jpy_serviceWrapper2__card p {
     line-height: 2;
-    font-size: large;
-    width: 263px;
-    padding: 20px;
-    text-align: justify;
+    width: 225px;
+    padding: 5px;
+    /* text-align: justify; */
+    letter-spacing: 2px;
+    font-size: 20px;
+   
+    
 
 }
 .jpy_serviceWrapper2__card h3{
