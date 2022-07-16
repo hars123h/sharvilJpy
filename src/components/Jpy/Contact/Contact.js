@@ -12,7 +12,7 @@ function Contact() {
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">貴社名</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder='貴社名' readonly class="form-control-plaintext"   />
+                            <input type="text" placeholder='貴社名' readonly class="form-control"   />
                         </div>
                     </div>
                     <div class="form-group row">
@@ -28,7 +28,7 @@ function Contact() {
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">メールアドレス</label>
+                        <label class="col-sm-2 col-form-email">メールアドレス</label>
                         <div class="col-sm-10">
                             <input type="Email" placeholder='メールアドレス' class="form-control"  />
                         </div>

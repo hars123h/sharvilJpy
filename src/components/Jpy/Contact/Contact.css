@@ -41,7 +41,7 @@ textarea {
     border-radius: 17px;
     border: none !important;
     outline: none !important;
-    padding: 5px;
+    padding: 25px;
     opacity: 1 !important;
     color: #000000;
     font-size: large;
@@ -74,6 +74,7 @@ textarea {
 
 .jpyContact__input form input:focus {
     border: none;
+
 }
 
 .jpyContact__input h3 {
