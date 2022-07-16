@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 .heroBackground {
     background-image: url('../../img//jpy//herobg.png');
@@ -11,52 +13,29 @@
 .JpyBody{
 
     background: transparent linear-gradient(180deg, #9DA3AA 15%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
-    height: 620vh;
+    height: 650vh;
     z-index: -100;
 }
 
-@media screen and (max-width:1444px) and (max-height:555px) {
-    .JpyBody{
-
-        height: 815vh;
-    }
+@media screen and (max-width:1254px) {
+   .JpyBody{
+    height: 705vh;
+   }
     
 }
-@media screen and (max-width:1024px) and (max-height:547px) {
-    .JpyBody{
-
-        height: 835vh;
-    }
+@media screen and (max-width:1224px) {
+   .JpyBody{
+    height: 715vh;
+   }
     
 }
-@media screen and (max-width:774px) and (max-height:536px) {
-    .JpyBody{
-
-        height: 885vh;
-    }
-    
-}
-@media screen and ( max-height:507px) {
-    .JpyBody{
-
-        height: 905vh !important;
-    }
+@media screen and (max-width:1204px) {
+   .JpyBody{
+    height: 725vh;
+   }
     
 }
 
 
 
-/*
-@media screen and (max-width:780px) {
-    .JpyBody{
 
-        height: 810vh;
-    }
-    
-}
-@media screen and (max-width:500px) {
-    .JpyBody{
-
-        height: 961vh;
-    }
-} */

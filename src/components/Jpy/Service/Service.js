@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Service.css'
+import "../../../pages/Jpy/Jpy.css"
 import img1 from "../../../img/jpy/service2.png"
 import Contact from '../Contact/Contact'
 import { CSSTransition } from 'react-transition-group';
@@ -7,10 +8,9 @@ import webPagedata from "./Webdata.js"
 
 
 const Service = () => {
-  const [fade, setFade] = useState("service__webpageDesigne__rightBox__datashow")
-  const [WebData, setWebData] = useState(webPagedata[0].para)
-
-  console.log(fade);
+  const [calssName, setClassName] = useState("dataHidden")
+  const [WebData, setWebData] = useState(webPagedata[0])
+  console.log(WebData.para);
   return (
     <>
       <div className="shadow">
@@ -34,7 +34,7 @@ const Service = () => {
           </div>
           <div data-aos="slide-left" className="jpy_serviceCard2__right">
             <div className="jpy_serviceCard3">
-              <h2>GLOBAL BUSINESS</h2>
+              <h2>{}</h2>
               <div className="jpy_serviceCard__para">
                 <p>弊社の世界中に広がる強いネットワークを活用し、御 社の既存事業を世界各地に広げることをサポートさせ ていただきます。UAEからEU,またはアジア地域での さらなる顧客獲得をお手伝いいたします。言語に関し ても、全く問題なく世界中お客様の事業を広げます。</p>
               </div>
@@ -82,17 +82,19 @@ const Service = () => {
         </div>
         <div className="service__webpageDesigne">
           <div className="service__webpageDesigne__left">
-            <p onClick={()=>{setWebData(webPagedata[0].para)}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
-            <p onClick={()=>{setWebData(webPagedata[1].para)}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
-            <p onClick={()=>setWebData(webPagedata[2].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
-            <p onClick={()=>setWebData(webPagedata[3].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
-            <p onClick={()=>setWebData(webPagedata[4].para)} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
+            <p onClick={() => setWebData(webPagedata[0])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
+            <p onClick={() => setWebData(webPagedata[1])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
+            <p onClick={() => setWebData(webPagedata[2])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
+            <p onClick={() => setWebData(webPagedata[3])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
+            <p onClick={() => setWebData(webPagedata[1])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
           </div>
           <div className="service__webpageDesigne__rightBox">
-            <div className={fade}>
-              <h3>WEBPAGE DESIGN</h3>
-              <p  className='service__webpageDesigne__rightBox__datashow' data-aos="fade-up" >{WebData}</p>
+
+            <div data-aos="fade-up" className="datashow">
+              <h3>{WebData.heading}</h3>
+              <p className='' >{WebData.para}</p>
             </div>
+          
           </div>
         </div>
         <Contact />

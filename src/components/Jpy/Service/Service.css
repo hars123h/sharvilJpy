@@ -4,7 +4,9 @@
     background-position: -40% 50%, 60% 60%, 160px 0px;
     background-repeat: no-repeat;
     background-size: 60%, 180% 70%, 80%;
-    padding: 0 6rem;
+}
+.jpy_serviceWrapper{
+    margin: 20px 20px;
 }
 
 .service .jpy_serviceWrapper .jpy_serviceCard1 {
@@ -90,41 +92,45 @@
 .jpy_serviceWrapper2 {
     background-image: url("../../../img/jpy/service2.png");
     background-repeat: no-repeat;
+    width: 100%;
+    background-size: 120% 100%;
     height: 55rem;
-    background-size: 100% 100%;
-    margin-left: -20rem;
-    margin-top: -15rem;
-    width: 150%;
+    background-position: center; 
     overflow-x: hidden;
+    margin-top: -15rem;
 }
 
 .jpy_serviceWrapper2__cards {
     display: flex;
     justify-content: space-evenly;
-    position: relative;
     align-items: center;
     color: #ffff;
     justify-content: center;
-    text-align: justify;
-    margin-right: 5rem;
+    margin-top: 10rem;
+}
+.jpy_serviceWrapper2__cards div:nth-child(4){
+    margin-top: 12rem;
+}
+.jpy_serviceWrapper2__cards div:nth-child(5){
+    margin-top: 8rem;    
 }
 .jpy_serviceWrapper2__card {
-    padding: 20px;
-    margin-top: 20rem;
-    width: 17rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    overflow-y: hidden ;
-    overflow-x: hidden;
+    justify-content: center;
+    width: 250px;
+   
+  
 }
 
-.jpy_serviceWrapper2__card p {
-    line-height: 2;
-    width: 225px;
+.jpy_serviceWrapper2__card p{
+    line-height: 1.5;
+    width: 220px;
     padding: 5px;
-    /* text-align: justify; */
+    padding: 10px;
+    text-align: justify;
     letter-spacing: 2px;
     font-size: 20px;
    
@@ -132,20 +138,21 @@
 
 }
 .jpy_serviceWrapper2__card h3{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .jpy_serviceWrapper2__card__circle {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 20px;
     margin-bottom: 3rem;
-    /* margin-top: -3rem; */
+    margin-top: -5rem;
 
 }
 
@@ -186,14 +193,14 @@
     font-weight: 700;
     margin-bottom: 5px;
 }
-.service__webpageDesigne__rightBox__data{
-
+.dataHidden{
+    position: absolute;
     opacity: 0;
     transition: visibility 0s 750ms, opacity 750ms cubic-bezier(.645, .045, .355, .2);
     visibility: hidden;
     
 }
-.service__webpageDesigne__rightBox__datashow{
+.datashow{
     opacity: 1;
     transition: visibility 0s linear 0s, opacity 750ms cubic-bezier(.645, .045, .355, 1) 750ms;
     visibility: visible;
@@ -206,7 +213,8 @@
     justify-content: center;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 15rem;
+
 
 
 }

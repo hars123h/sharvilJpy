@@ -21,10 +21,10 @@ function Jpy() {
         })
     }, [])
     return (
-        <div className="JpyBody" data-aos="zoom-out">
+        <div className="JpyBody" >
             <Header />
 
-            <div className="heroBackground">
+            <div data-aos="zoom-out" className="heroBackground">
 
                 <Hero />
 
