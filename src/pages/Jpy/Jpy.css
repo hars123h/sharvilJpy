@@ -16,25 +16,27 @@
     height: 645vh;
     z-index: -100;
 }
+@media (max-width:1265px) {
+    .JpyBody{
+        height: 625vh;
+    }
+}
+@media (max-width:1199px) {
+    .JpyBody{
+        height: 645vh;
+    }
+}
+@media (max-height:675px) {
+    .JpyBody{
+        height: 660vh;
+    }
+}
+@media (max-height:655px) {
+    .JpyBody{
+        height: 680vh;
+    }
+}
 
-@media screen and (max-width:1265px) {
-   .JpyBody{
-    height: 623vh;
-   }
-    
-}
-@media screen and (max-width:1215px) {
-   .JpyBody{
-    height: 628vh;
-   }
-    
-}
-@media screen and (max-width:1200px) {
-   .JpyBody{
-    height: 638vh;
-   }
-    
-}
 
 
 
