@@ -33,7 +33,22 @@
 }
 @media (max-height:655px) {
     .JpyBody{
-        height: 680vh;
+        height: 735vh;
+    }
+}
+@media (max-height:625px) {
+    .JpyBody{
+        height: 745vh;
+    }
+}
+@media (max-height:612px) {
+    .JpyBody{
+        height: 755vh;
+    }
+}
+@media (max-height:601px) {
+    .JpyBody{
+        height: 765vh;
     }
 }
 
