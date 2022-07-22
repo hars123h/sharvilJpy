@@ -108,10 +108,10 @@
     justify-content: center;
     margin-top: 10rem;
 }
-.jpy_serviceWrapper2__cards div:nth-child(4){
+.jpy_serviceWrapper2__cards div:nth-of-type(4){
     margin-top: 12rem;
 }
-.jpy_serviceWrapper2__cards div:nth-child(5){
+.jpy_serviceWrapper2__cards div:nth-of-type(5){
     margin-top: 8rem;    
 }
 .jpy_serviceWrapper2__card {
