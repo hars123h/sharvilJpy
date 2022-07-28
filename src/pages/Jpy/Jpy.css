@@ -13,43 +13,7 @@
 .JpyBody{
 
     background: transparent linear-gradient(180deg, #9DA3AA 15%, #E2F0FA 100%) 0% 0% no-repeat padding-box;
-    height: 645vh;
-    z-index: -100;
-}
-@media (max-width:1265px) {
-    .JpyBody{
-        height: 625vh;
-    }
-}
-@media (max-width:1199px) {
-    .JpyBody{
-        height: 645vh;
-    }
-}
-@media (max-height:675px) {
-    .JpyBody{
-        height: 660vh;
-    }
-}
-@media (max-height:655px) {
-    .JpyBody{
-        height: 735vh;
-    }
-}
-@media (max-height:625px) {
-    .JpyBody{
-        height: 745vh;
-    }
-}
-@media (max-height:612px) {
-    .JpyBody{
-        height: 755vh;
-    }
-}
-@media (max-height:601px) {
-    .JpyBody{
-        height: 765vh;
-    }
+
 }
 
 

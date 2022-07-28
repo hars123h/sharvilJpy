@@ -6,6 +6,7 @@ import './Jpy.css';
 import "aos/dist/aos.css"
 import Aos from "aos";
 import Contact from "../../components/Jpy/Contact/Contact";
+import Service2 from "../../components/Jpy/Service/Service2";
 
 
 
@@ -30,7 +31,8 @@ function Jpy() {
 
             </div>
             <Service />
-
+            <Service2/>
+            <Contact />
 
         </div>
 
