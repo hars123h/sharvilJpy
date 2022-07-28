@@ -22,7 +22,8 @@ function Jpy() {
         })
     }, [])
     return (
-        <div className="JpyBody" >
+        <>
+          <div className="JpyBody" >
             <Header />
 
             <div data-aos="zoom-out" className="heroBackground">
@@ -35,6 +36,9 @@ function Jpy() {
             <Contact />
 
         </div>
+        
+        </>
+      
 
     );
 }
