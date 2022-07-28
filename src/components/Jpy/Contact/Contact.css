@@ -1,7 +1,7 @@
 .jpyContact form {
     color: black;
     width: 80%;
-    background: #FFFFFFFA;
+    background: rgba(255, 255, 255, .55);
     box-shadow: 10px 10px 10px #00000029;
     border-radius: 52px;
     padding: 20px;
@@ -90,6 +90,8 @@ textarea {
     font-size: 30px;
     letter-spacing: 5px;
     font-weight: 700;
+    margin-bottom: .7rem;
+    margin-left: 15rem;
 }
 .jpyBottomNav{
     padding-bottom: 1.5rem;
