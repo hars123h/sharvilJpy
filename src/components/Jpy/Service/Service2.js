@@ -3,7 +3,20 @@ import "./Service2.css"
 import webPagedata from "./Webdata.js"
 
 function Service2() {
-    const [WebData, setWebData] = useState(webPagedata[0])
+    // const [WebData, setWebData] = useState(webPagedata[0])
+    const [Webpage, setWebpage] = useState('dataHidden')
+    const [Reactnative, setReactNative] = useState('datashow')
+    const [Blockchain, setBlockchain] = useState('dataHidden')
+    const [application, setApplication] = useState('dataHidden')
+    const [webthree, setWebthree] = useState('dataHidden')
+    const webaPageData = ()=>{
+        setWebpage('datashow');
+        setReactNative('dataHidden')
+    }
+    const reactNativeData = ()=>{
+        setWebpage('dataHidden');
+        setReactNative('datashow')
+    }
     return (
         <div>
 
@@ -30,15 +43,15 @@ function Service2() {
                         <h3>デザイン</h3>
                         <p>課題解決のために、システムにせよ、サービスにせよ、目に見えるデザインと、目に見えないデザインをどちらも究極まで詰め、仕上げます</p>
                     </div>
-                    <div data-aos="fade-up" className="jpy_serviceWrapper2__card">
-                        <div className="jpy_serviceWrapper2__card__circle">
+                    <div data-aos="fade-up" className="jpy_serviceWrapper2__card ">
+                        <div className="jpy_serviceWrapper2__card__circle circle4">
                             <p>04</p>
                         </div>
                         <h3>開発・実行</h3>
                         <p>システムであれば、最適なチームで迅速にシステムを構築し、事業開発であれば最適なチームと最速で実行に移します。スピードが重要です。</p>
                     </div>
-                    <div data-aos="fade-up" className="jpy_serviceWrapper2__card">
-                        <div className="jpy_serviceWrapper2__card__circle">
+                    <div data-aos="fade-up" className="jpy_serviceWrapper2__card ">
+                        <div className="jpy_serviceWrapper2__card__circle circle5">
                             <p>05</p>
                         </div>
                         <h3>サポート</h3>
@@ -48,18 +61,34 @@ function Service2() {
             </div>
             <div className="service__webpageDesigne">
                 <div className="service__webpageDesigne__left">
-                    <p onClick={() => setWebData(webPagedata[0])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
-                    <p onClick={() => setWebData(webPagedata[1])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
-                    <p onClick={() => setWebData(webPagedata[2])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
-                    <p onClick={() => setWebData(webPagedata[3])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
-                    <p onClick={() => setWebData(webPagedata[1])} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
+                    <p onClick={webaPageData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
+                    <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
+                    <p onClick={() =>  {setWebpage('dataHidden');setWebthree('dataHidden');setApplication('datashow');setBlockchain('dataHidden');setReactNative('dataHidden')}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
+                    <p onClick={() =>  {setWebpage('dataHidden');setWebthree('dataHidden');setApplication('dataHidden');setBlockchain('datashow');setReactNative('dataHidden')}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
+                    <p onClick={() =>  {setWebpage('dataHidden');setWebthree('datashow');setApplication('dataHidden');setBlockchain('dataHidden');setReactNative('dataHidden')}} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
                 </div>
                 <div className="service__webpageDesigne__rightBox">
 
-                    <div data-aos="fade-up" className="datashow">
-                        <h3>{WebData.heading}</h3>
-                        <p className='' >{WebData.para}</p>
+                    <div data-aos="fade-up" className={`${Reactnative}`}>
+                        <h3>REACT NATIVE</h3>
+                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
                     </div>
+                    <div data-aos="fade-up" className={`${Webpage}`}>
+                        <h3>WEB PAGE</h3>
+                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                    </div>
+                    {/* <div data-aos="fade-up" className={`${application}`}>
+                        <h3>APPLICATON</h3>
+                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                    </div>
+                    <div data-aos="fade-up" className={`${Blockchain}`}>
+                        <h3>BLOCKCHAIN</h3>
+                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                    </div>
+                    <div data-aos="fade-up" className={`${webthree}`}>
+                        <h3>WEB 3.O</h3>
+                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                    </div> */}
 
                 </div>
             </div>

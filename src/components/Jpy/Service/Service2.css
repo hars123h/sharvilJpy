@@ -101,11 +101,11 @@
     justify-content: center;
     margin-top: 10rem;
 }
-.jpy_serviceWrapper2__cards div:nth-of-type(4){
-    margin-top: 12rem;
+.circle4{
+    margin-top: -3.2rem !important;
 }
-.jpy_serviceWrapper2__cards div:nth-of-type(5){
-    margin-top: 8rem;    
+.circle5{
+    margin-top: -7rem !important;    
 }
 .jpy_serviceWrapper2__card {
     margin-top: 10rem;
@@ -167,6 +167,15 @@
     flex-direction: column;
     text-align: center;
     padding: 30px;
+    animation:fadein 1s;
+}
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
 }
 
 .service__webpageDesigne__rightBox p {
@@ -187,9 +196,11 @@
     margin-bottom: 5px;
 }
 .dataHidden{
-    position: absolute;
+    left: 0;
     opacity: 0;
-    transition: visibility 0s 750ms, opacity 750ms cubic-bezier(.645, .045, .355, .2);
+    position: absolute;
+    top: 0;
+    transition: visibility 0s 750ms, opacity 750ms cubic-bezier(.645, .045, .355, 1);
     visibility: hidden;
     
 }
