@@ -97,7 +97,7 @@ function Service2() {
                 </div>
                 <div className="service__webpageDesigne__rightBox">
                     {Webpage === 'activeBtn' && (
-                        <div data-aos="zoom-out"
+                        <div data-aos="zoom-in"
                         
                          >
                             <h3>REACT NATIVE</h3>
@@ -108,7 +108,7 @@ function Service2() {
                     }
 
                     {Reactnative === 'activeBtn' && (
-                        <div data-aos="zoom-out">
+                        <div data-aos="zoom-in">
                             <h3>WEB PAGE</h3>
                             <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
                         </div>
@@ -118,7 +118,7 @@ function Service2() {
 
                     {webthree === 'activeBtn' && (
 
-                        <div data-aos="zoom-out" >
+                        <div data-aos="zoom-in" >
                             <h3>WEB 3.O</h3>
                             <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
                         </div>
@@ -127,7 +127,7 @@ function Service2() {
                     }
 
                     {Blockchain === 'activeBtn' && (
-                        <div data-aos="zoom-out">
+                        <div data-aos="zoom-in">
                             <h3>BLOCKCHAIN</h3>
                             <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
                         </div>
@@ -136,7 +136,7 @@ function Service2() {
                     }
 
                     {application === 'activeBtn' && (
-                        <div data-aos="zoom-out">
+                        <div data-aos="zoom-in">
                             <h3>APPLICATON</h3>
                             <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
                         </div>
