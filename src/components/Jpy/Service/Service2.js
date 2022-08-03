@@ -87,7 +87,7 @@ function Service2() {
                     </div>
                 </div>
             </div>
-            {/* ANIMATION WAALA SERVICE */}
+            {/* ANIMATION WAALA SERVICE- */}
             <div className="service__webpageDesigne">
                 <div className="service__webpageDesigne__left">
                     <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
