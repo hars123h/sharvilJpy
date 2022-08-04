@@ -90,7 +90,7 @@
     height: 55rem;
     background-position: center; 
     overflow-x: hidden;
-    margin-top: -25rem;
+    margin-top: -20rem;
 }
 
 .jpy_serviceWrapper2__cards {
@@ -99,15 +99,23 @@
     align-items: center;
     color: #ffff;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 14rem;
 }
-.circle4{
-    margin-top: -3.2rem !important;
+.jpy_serviceWrapper2__cards table tr{
+    /* gap: 8rem; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
 }
-.circle5{
-    margin-top: -7rem !important;    
+.jpy_serviceWrapper2__cards table tr td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
-.jpy_serviceWrapper2__card {
+/* .jpy_serviceWrapper2__card {
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
@@ -116,9 +124,9 @@
     width: 250px;
    
   
-}
+} */
 
-.jpy_serviceWrapper2__card p{
+/* .jpy_serviceWrapper2__card p{
     line-height: 1.5;
     width: 220px;
     padding: 5px;
@@ -129,30 +137,40 @@
    
     
 
-}
-.jpy_serviceWrapper2__card h3{
+}  */
+/* .jpy_serviceWrapper2__card h3{
     margin-bottom: 30px;
-}
+} */
 
-.jpy_serviceWrapper2__card__circle {
+.jpy_serviceWrapper2__card__circle p{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: #ffff;
     display: flex;
+    font-weight: 900;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
-    margin-bottom: 3rem;
-    margin-top: -5rem;
+  
 
+}
+.NumberRow{
+    gap: 10rem;
+}
+.tabletitle{
+    gap:8.5rem;
+     text-align:center
+}
+.dataRow{
+    gap: 5.6rem;
 }
 
 .jpy_serviceWrapper2__card__circle p {
     color: black;
     letter-spacing: 2px;
-    font-weight: 800;
+    font-weight: 900;
     margin-top: 1rem;
 }
 
@@ -268,63 +286,16 @@
 
 }
 
-@media screen and (max-width:500px) {
-    .jpy_serviceCard__para p {
-
-        padding: 10px, 10px;
-        font-size: 15px;
+@media only screen and(max-width:1235px) {
+    .tabletitle{
+        gap:8.5rem !important;
+         text-align:center;
     }
-
-    .jpy_serviceCard1 h2,
-    .jpy_serviceCard2 h2,
-    .jpy_serviceCard3 h2 {
-
-        font-size: 20px;
-        font: normal normal bold 40px/55px;
-        opacity: 1;
-
+    .dataRow{
+        gap: 5.6rem;
     }
-    .service .jpy_serviceWrapper .jpy_serviceCard1 {
-        width: 268px;
-        
+    .NumberRow{
+        gap:10.5rem;
+    }
     
-    
-    
-    }
-    .service__webpageDesigne__left__circle {
-        width: 80px;
-        height: 80px;
-        background-color: #E2F0FA;
-        border-radius: 50%;
-        position: relative;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-right: 0rem; */
-        margin-left: -1rem;
-        cursor: pointer;
-    }
-    .service__webpageDesigne__left {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: 10rem;
-    }
-    .service__webpageDesigne__rightBox p {
-        font: normal normal bold 16px/27px Avenir Next;
-        width: 25rem;
-    }
-    .service__webpageDesigne__rightBox h3 {
-        font-size: 28px;
-    }
-    .service__webpageDesigne__rightBox{
-        border-radius: 45px;
-    }
-    .service {
-        background-position: -31% 7%, 60% 60%, 174px -10px;
-        background-size: 57%, 199% 64%, 82%;
-    }
 }
