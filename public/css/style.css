@@ -2113,10 +2113,19 @@ a.dropdown-toggle::after {
     color: #066363;
 }
 
-.navbar-nav .nav-link:hover,
+.navbar-nav,
 .navbar .dropdown:hover .dropdown-toggle,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu.megamenu .dropdown-item:hover {
+    color: #066363 !important;
+}
+.otherLink:hover{
+    color: #066363 !important;
+}
+.linkToEng:hover{
+    color: #066363 !important;
+}
+.linkToJapan:hover{
     color: #066363 !important;
 }
 

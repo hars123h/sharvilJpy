@@ -15,21 +15,21 @@ const Header = () => {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav  ms-xl-auto navElementStyle " >
                 <li className="nav-item">
-                  <a className="nav-link  pagescroll" href="#home">Home</a>
+                  <a className="nav-link  pagescroll otherLink" href="#home">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link pagescroll scrollupto" href="#about">About Us</a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#portfolio">Portfolio</a>
+                  <a className="nav-link pagescroll scrollupto otherLink" href="#about">About Us</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#contact">Contact Us</a>
+                  <a className="nav-link pagescroll otherLink" href="#portfolio">Portfolio</a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link pagescroll otherLink" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll"> <a href='/jpy' style={{cursor:"pointer"}} >日本語</a>| <a href='/'>Eng</a></p> 
+                  <p className="nav-link pagescroll "> <a className='linkToJapan' href='/jpy' style={{cursor:"pointer"}} >日本語</a>| <a className = 'linkToEng' href='/'>Eng</a></p> 
                 </li>
               </ul>
             </div>
@@ -61,7 +61,7 @@ const Header = () => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#contact">日本語｜EN</a>
+                  <p className="nav-link pagescroll" href="#contact"><a href='/jpy'>日本語</a>｜<a href='/'>ENG</a></p>
                 </li>
               </ul>
             </nav>

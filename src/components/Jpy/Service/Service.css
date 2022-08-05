@@ -99,7 +99,7 @@
 }
 
 
-.service__webpageDesigne__rightBox {
+/* .service__webpageDesigne__rightBox {
     width: 867px;
     height: 567px;
     box-shadow: 0px 0px 10px 5px #00000029;
@@ -171,7 +171,7 @@
 
 .service__webpageDesigne__left {
     margin-right: 10rem;
-}
+} */
 
 @media screen and (max-width:1024px) {
     .service__webpageDesigne {
