@@ -62,19 +62,19 @@ function Service2() {
                             <td className="jpy_serviceWrapper2__card__circle">
                                 <p>03</p>
                             </td>
-                            <td className="jpy_serviceWrapper2__card__circle">
+                            <td  className="jpy_serviceWrapper2__card__circle"  style={{marginLeft:".7rem"}}>
                                 <p>04</p>
                             </td>
-                            <td className="jpy_serviceWrapper2__card__circle">
+                            <td style={{marginLeft:".7rem"}} className="jpy_serviceWrapper2__card__circle">
                                 <p>05</p>
                             </td>
                         </tr>
                         <tr  data-aos="fade-up" className='tabletitle'>
                             <td><h3 style={{color:"#fff"}}>ヒアリング</h3></td>
-                            <td><h3 style={{color:"#fff"}}>戦略策定</h3></td>
+                            <td><h3 style={{color:"#fff",marginLeft:"-.5rem"}}>戦略策定</h3></td>
                             <td><h3 style={{color:"#fff"}}>デザイン</h3></td>
-                            <td><h3 style={{color:"#fff"}}>開発・実行</h3></td>
-                            <td> <h3 style={{color:"#fff", marginLeft:"-.5rem"}}>サポート</h3></td>
+                            <td><h3 style={{color:"#fff",}}>開発・実行</h3></td>
+                            <td> <h3 style={{color:"#fff", }}>サポート</h3></td>
                         </tr>
                         <tr className='dataRow' data-aos="fade-up">
                             <td style={{width:"220px"}}> <p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550"}}>まずは、お客様の持っていらっしゃる課題をとにかく深掘りします。課題を明確にし、解決をサポートできる最適なチームをセットします。</p></td>
