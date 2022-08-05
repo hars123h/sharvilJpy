@@ -164,7 +164,7 @@
      text-align:center
 }
 .dataRow{
-    gap: 5.6rem;
+    gap: 3rem;
 }
 
 .jpy_serviceWrapper2__card__circle p {
@@ -172,6 +172,7 @@
     letter-spacing: 2px;
     font-weight: 900;
     margin-top: 1rem;
+    font-size: 25px;
 }
 
 .service__webpageDesigne__rightBox {
