@@ -109,9 +109,6 @@
 }
 .jpy_serviceWrapper2__cards table tr td{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 10px;
 }
 /* .jpy_serviceWrapper2__card {

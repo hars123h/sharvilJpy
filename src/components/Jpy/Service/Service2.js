@@ -80,8 +80,8 @@ function Service2() {
                             <td style={{width:"220px"}}> <p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550"}}>まずは、お客様の持っていらっしゃる課題をとにかく深掘りします。課題を明確にし、解決をサポートできる最適なチームをセットします。</p></td>
                             <td style={{width:"220px"}}><p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550"}}>発見し、明確に言語化した課題を解決するための戦略を策定していきます。もちろんですが、お客様と綿密に打ち合わせを重ねていきます。</p></td>
                             <td style={{width:"220px"}} > <p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550"}}>課題解決のために、システムにせよ、サービスにせよ、目に見えるデザインと、目に見えないデザインをどちらも究極まで詰め、仕上げます</p></td>
-                            <td style={{width:"240px"}}> <p  style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550", marginTop:".2rem", textAlign:"start"}}>システムであれば、最適なチームで迅速にシステムを構築し、事業開発であれば最適なチームと最速で実行に移します。スピードが重要です。</p></td>
-                            <td style={{width:"220px"}}><p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550", marginTop:"-2.3rem", textAlign:"start"}}>商品やコンサルを納品して終わりではありません。無期限でお客様のサポートをさせていただきます。</p></td>
+                            <td style={{width:"240px"}}> <p  style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550", textAlign:"start"}}>システムであれば、最適なチームで迅速にシステムを構築し、事業開発であれば最適なチームと最速で実行に移します。スピードが重要です。</p></td>
+                            <td style={{width:"220px"}}><p style={{lineHeight: "2", letterSpacing: "2px",color:"#fff", fontSize:"20px",fontWeight:"550", textAlign:"start"}}>商品やコンサルを納品して終わりではありません。無期限でお客様のサポートをさせていただきます。</p></td>
                         </tr>
 
                     </table>
