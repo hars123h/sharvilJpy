@@ -157,14 +157,14 @@
 
 }
 .NumberRow{
-    gap: 10rem;
+    gap: 9.5rem;
 }
 .tabletitle{
     gap:8.5rem;
      text-align:center
 }
 .dataRow{
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .jpy_serviceWrapper2__card__circle p {
