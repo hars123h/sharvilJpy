@@ -4,22 +4,50 @@ import webPagedata from "./Webdata.js"
 
 function Service2() {
     // const [WebData, setWebData] = useState(webPagedata[0])
-    const [Webpage, setWebpage] = useState('dataHidden')
-    const [Reactnative, setReactNative] = useState('datashow')
-    const [Blockchain, setBlockchain] = useState('dataHidden')
-    const [application, setApplication] = useState('dataHidden')
-    const [webthree, setWebthree] = useState('dataHidden')
+    const [Webpage, setWebpage] = useState('noActiveBtn')
+    const [Reactnative, setReactNative] = useState('activeBtn')
+    const [Blockchain, setBlockchain] = useState('noActiveBtn')
+    const [application, setApplication] = useState('noActiveBtn')
+    const [webthree, setWebthree] = useState('noActiveBtn')
     const webaPageData = () => {
-        setWebpage('datashow');
-        setReactNative('dataHidden')
+        setWebpage('activeBtn');
+        setReactNative('noActiveBtn')
+        setApplication('noActiveBtn')
+        setBlockchain('noActiveBtn')
+        setWebthree('noActiveBtn')
     }
     const reactNativeData = () => {
-        setWebpage('dataHidden');
-        setReactNative('datashow')
+        setWebpage('noActiveBtn');
+        setReactNative('activeBtn');
+        setApplication('noActiveBtn')
+        setBlockchain('noActiveBtn')
+        setWebthree('noActiveBtn')
+    }
+    const applicationData = () => {
+        setWebpage('noActiveBtn');
+        setReactNative('noActiveBtn')
+        setApplication('activeBtn')
+        setBlockchain('noActiveBtn')
+        setWebthree('noActiveBtn')
+    }
+
+    const blockChainData = () => {
+        setWebpage('noActiveBtn');
+        setReactNative('noActiveBtn')
+        setApplication('noActiveBtn')
+        setBlockchain('activeBtn')
+        setWebthree('noActiveBtn')
+    }
+    const web3Data = () => {
+        setWebpage('noActiveBtn');
+        setReactNative('noActiveBtn')
+        setApplication('noActiveBtn')
+        setBlockchain('noActiveBtn')
+        setWebthree('activeBtn')
     }
     return (
         <div>
-
+            {/* NUMBER WAALA SERVICE */}
             <div className="jpy_serviceWrapper2">
                 <div className="jpy_serviceWrapper2__cards">
                     <table >
@@ -94,36 +122,68 @@ function Service2() {
                     </div> */}
                 </div>
             </div>
+            {/* ANIMATION WAALA SERVICE- */}
             <div className="service__webpageDesigne">
                 <div className="service__webpageDesigne__left">
-                    <p onClick={webaPageData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
-                    <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
-                    <p onClick={() => { setWebpage('dataHidden'); setWebthree('dataHidden'); setApplication('datashow'); setBlockchain('dataHidden'); setReactNative('dataHidden') }} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
-                    <p onClick={() => { setWebpage('dataHidden'); setWebthree('dataHidden'); setApplication('dataHidden'); setBlockchain('datashow'); setReactNative('dataHidden') }} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
-                    <p onClick={() => { setWebpage('dataHidden'); setWebthree('datashow'); setApplication('dataHidden'); setBlockchain('dataHidden'); setReactNative('dataHidden') }} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
+                    <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
+                    <p onClick={webaPageData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
+                    <p onClick={applicationData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
+                    <p onClick={blockChainData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
+                    <p onClick={web3Data} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
                 </div>
                 <div className="service__webpageDesigne__rightBox">
+                    {Webpage === 'activeBtn' && (
+                        <div data-aos="zoom-in"
+                        
+                         >
+                            <h3>REACT NATIVE</h3>
+                            <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                        </div>
 
-                    <div data-aos="fade-up" className={`${Reactnative}`}>
-                        <h3>REACT NATIVE</h3>
-                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
-                    </div>
-                    <div data-aos="fade-up" className={`${Webpage}`}>
-                        <h3>WEB PAGE</h3>
-                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
-                    </div>
-                    {/* <div data-aos="fade-up" className={`${application}`}>
-                        <h3>APPLICATON</h3>
-                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
-                    </div>
-                    <div data-aos="fade-up" className={`${Blockchain}`}>
-                        <h3>BLOCKCHAIN</h3>
-                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
-                    </div>
-                    <div data-aos="fade-up" className={`${webthree}`}>
-                        <h3>WEB 3.O</h3>
-                        <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
-                    </div> */}
+                    )
+                    }
+
+                    {Reactnative === 'activeBtn' && (
+                        <div data-aos="zoom-in">
+                            <h3>WEB PAGE</h3>
+                            <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                        </div>
+
+                    )
+                    }
+
+                    {webthree === 'activeBtn' && (
+
+                        <div data-aos="zoom-in" >
+                            <h3>WEB 3.O</h3>
+                            <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                        </div>
+
+                    )
+                    }
+
+                    {Blockchain === 'activeBtn' && (
+                        <div data-aos="zoom-in">
+                            <h3>BLOCKCHAIN</h3>
+                            <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                        </div>
+
+                    )
+                    }
+
+                    {application === 'activeBtn' && (
+                        <div data-aos="zoom-in" data-aos-delay="50">
+                            <h3>APPLICATON</h3>
+                            <p className='' >ホームページやサービスページの作成は、一見簡単そうに見えて簡単ではありません。どういったユーザーをターゲトにするのか、何を目的にするのか。そういった重要な情報をもとに、デザインだけでなく、ウェブページの裏に仕込む仕組みが大きく変わってきます。そのため、繰り返しヒアリングさせていただき、御社に最適なランディングページやホームページを制作させていただきます。デザインにももちんこだわっています。</p>
+                        </div>
+
+                    )
+                    }
+
+
+
+
+
 
                 </div>
             </div>
