@@ -102,7 +102,6 @@
     margin-top: 14rem;
 }
 .jpy_serviceWrapper2__cards table tr{
-    /* gap: 8rem; */
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -288,16 +287,30 @@
 
 }
 
-@media only screen and(max-width:1235px) {
+@media screen and (max-width:1286px) {
     .tabletitle{
         gap:8.5rem !important;
-         text-align:center;
     }
     .dataRow{
-        gap: 5.6rem;
+        gap: 1rem !important;
     }
     .NumberRow{
-        gap:10.5rem;
+        gap:8.7rem !important;
+    }
+    .jpy_serviceWrapper2 {
+        margin-top: -15rem !important;
+    }
+    
+}
+@media screen and (max-width:1265px) {
+    .tabletitle{
+        gap:9.5rem !important;
+    }
+    .dataRow{
+        /* gap: 1rem !important; */
+    }
+    .NumberRow{
+        gap:9.7rem !important;
     }
     
 }
