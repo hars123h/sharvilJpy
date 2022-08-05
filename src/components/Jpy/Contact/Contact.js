@@ -13,26 +13,45 @@ function Contact() {
         phone: "",
         message: "",
     })
+    function isValidEmail(email) {
+        return /\S+@\S+\.\S+/.test(email);
+      }
 
     const sendContactMail = async (e) => {
         e.preventDefault()
-        const response = await axios({
-            method: "post",
-            url: "https://formspree.io/f/mzboynnq",
-            data: {
-                ...formObj
+        if(!isValidEmail(formObj.email)){
+            toast.error("Please enter a valid email address")
+        } 
+        else {
+            const response = await axios({
+                method: "post",
+                url: "https://formspree.io/f/mzboynnq",
+                data: {
+                    ...formObj
+                }
+            })
+           
+            if (response.status === 200) {
+                setFormObj({ companyName: "", name: "", email: '', phone: '', message: "" })
+                toast.success("Your mail is sent. We will contact you as soon as possible.")
+                console.log("Your mail is sent. We will contact you as soon as possible.")
             }
-        })
-        if (response.status === 200) {
-            setFormObj({ companyName: "", name: "", email: '', phone: '', message: "" })
-            toast.success("Your mail is sent. We will contact you as soon as possible.")
-            console.log("Your mail is sent. We will contact you as soon as possible.")
-        } else {
-            toast.error("Oops. Something went wrong")
-            console.log("Oops. Something went wrong")
-
+           else {
+                toast.error("Oops. Something went wrong")
+                console.log("Oops. Something went wrong")
+    
+            }
         }
+        
     }
+
+    const handleChange = event => {
+        // if (!isValidEmail(event.target.value)) {
+        //     toast.error("Not a ValidEmail")
+        // } 
+    
+        setFormObj({ ...formObj, email: event.target.value })
+      };
     return (
         <div id='contact' className='jpyContact__container'>
             <ToastContainer
@@ -83,11 +102,11 @@ function Contact() {
                         <label class="col-sm-2 col-form-email">メールアドレス</label>
                         <div class="col-sm-10">
                             <input
-                                type="Email"
+                                type="email"
                                 placeholder='メールアドレス'
                                 name="email"
                                 value={formObj.email}
-                                onChange={e => setFormObj({ ...formObj, email: e.target.value })}
+                                onChange={handleChange}
                                 class="form-control"
                             />
                         </div>
