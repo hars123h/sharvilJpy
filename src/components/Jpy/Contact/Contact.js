@@ -1,10 +1,43 @@
-import React from 'react'
-import "./Contact.css"
+import React, { useState } from 'react'
+import "./Contact.css";
+import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 function Contact() {
+
+    const [formObj, setFormObj] = useState({
+        companyName: "",
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+    })
+
+    const sendContactMail = async (e) => {
+        e.preventDefault()
+        const response = await axios({
+            method: "post",
+            url: "https://formspree.io/f/mzboynnq",
+            data: {
+                ...formObj
+            }
+        })
+        if (response.status === 200) {
+            setFormObj({ companyName: "", name: "", email: '', phone: '', message: "" })
+            toast.success("Your mail is sent. We will contact you as soon as possible.")
+            console.log("Your mail is sent. We will contact you as soon as possible.")
+        } else {
+            toast.error("Oops. Something went wrong")
+            console.log("Oops. Something went wrong")
+
+        }
+    }
     return (
         <div id='contact' className='jpyContact__container'>
-
+            <ToastContainer
+                theme='colored'
+            />
             <div className="jpyContact">
 
                 <form >
@@ -12,37 +45,69 @@ function Contact() {
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">貴社名</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder='貴社名' readonly class="form-control"   />
+                            <input
+                                type="text"
+                                placeholder='貴社名'
+                                name="companyName"
+                                value={formObj.companyName}
+                                onChange={e => setFormObj({ ...formObj, companyName: e.target.value })}
+                                readonly class="form-control" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label  class="col-sm-2 col-form-label">ご担当者名</label>
+                        <label class="col-sm-2 col-form-label">ご担当者名</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder='ご担当者名' class="form-control"   />
+                            <input
+                                type="text"
+                                placeholder='ご担当者名'
+                                name="name"
+                                value={formObj.name}
+                                onChange={e => setFormObj({ ...formObj, name: e.target.value })}
+                                class="form-control"
+                            />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label  class="col-sm-2 col-form-label">電話番号</label>
+                        <label class="col-sm-2 col-form-label">電話番号</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder='電話番号' class="form-control"   />
+                            <input
+                                type="text"
+                                placeholder='電話番号'
+                                name="phone"
+                                value={formObj.phone}
+                                onChange={e => setFormObj({ ...formObj, phone: e.target.value })}
+                                class="form-control" />
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-email">メールアドレス</label>
                         <div class="col-sm-10">
-                            <input type="Email" placeholder='メールアドレス' class="form-control"  />
+                            <input
+                                type="Email"
+                                placeholder='メールアドレス'
+                                name="email"
+                                value={formObj.email}
+                                onChange={e => setFormObj({ ...formObj, email: e.target.value })}
+                                class="form-control"
+                            />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label  class="col-sm-2 col-form-label">お問い合わせ内容</label>
+                        <label class="col-sm-2 col-form-label">お問い合わせ内容</label>
                         <div class="col-sm-10">
-                            <textarea type="text" placeholder='お問い合わせ内容' class="form-control"  />
+                            <textarea
+                                type="text"
+                                placeholder='お問い合わせ内容'
+                                name="message"
+                                value={formObj.message}
+                                onChange={e => setFormObj({ ...formObj, message: e.target.value })}
+                                class="form-control" />
                         </div>
                     </div>
                     <div class="form-group row jpyContact__button">
-                        <label  class="col-sm-2 col-form-label"></label>
+                        <label class="col-sm-2 col-form-label"></label>
                         <div class="col-sm-10">
-                            <button>送信</button>
+                            <button onClick={sendContactMail}>送信</button>
                         </div>
                     </div>
                 </form>
