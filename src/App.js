@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
   // localStorage.setItem('Eng',true)
+  // localStorage.setItem('Eng',"Jpy")
   const[Eng, setEng] = useState(localStorage.getItem('Eng'))
   // localStorage.setItem('Eng',Eng)
   useEffect(() => {
@@ -18,7 +19,7 @@ function App() {
   const [Page, setCurrentPage] = useState()
   const setPage =()=>{
   
-    setEng(Eng === "Jpy"?"Eng":"Jpy")
+    setEng(Eng === "Eng"?"Jpy":"Eng")
     window.location.reload()
   }
  
@@ -28,7 +29,7 @@ function App() {
 
 
           {
-            Page==="Jpy"?<Jpy setPage={setPage} />:<English setPage={setPage} />
+            Page==="Eng"?<English setPage={setPage} />:<Jpy setPage={setPage}/>
           }
         
    
