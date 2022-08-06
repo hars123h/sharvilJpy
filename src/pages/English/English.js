@@ -9,12 +9,12 @@ import WorkProcess from '../../components/WorkProcess/WorkProcess';
 
 
 
-function English() {
+function English(props) {
     return (
         <>
             <div data-bs-spy="scroll" data-bs-target=".navbar-nav" data-bs-offset="75" class="offset-nav">
                 {/* Preloader */}
-                <Header />
+                <Header setPage={props.setPage} />
                 <div class="loader">
                     <div class="loader-inner">
                         <div class="cssload-loader"></div>

@@ -1,14 +1,6 @@
 import React from 'react'
-import { useStateValue } from '../StateProvider/Stateprovider'
+const Header = (props) => {
 
-
-const Header = () => {
-
-  const [page, dispatch] = useStateValue()
-  // console.log(page);
-  const swapPage = ()=>{
-        dispatch({item:false})
-  }
   return (
     <>
 
@@ -36,7 +28,7 @@ const Header = () => {
                   <a className="nav-link pagescroll otherLink" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll "> <a className='linkToJapan' onClick={swapPage} style={{cursor:"pointer"}} >日本語</a>| <a className = 'linkToEng'>Eng</a></p> 
+                  <p className="nav-link pagescroll "> <a className='linkToJapan'  style={{cursor:"pointer"}}onClick= {()=>props.setPage?props.setPage():""} >日本語</a>| <a className = 'linkToEng' style={{cursor:"pointer"}}>Eng</a></p> 
                 </li>
               </ul>
             </div>
@@ -68,7 +60,7 @@ const Header = () => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll" href="#contact"><a >日本語</a>｜<a>ENG</a></p>
+                  <p className="nav-link pagescroll" href="#contact"><a onClick={()=>props.setPage?props.setPage():""}>日本語</a>｜<a>ENG</a></p>
                 </li>
               </ul>
             </nav>

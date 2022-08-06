@@ -10,7 +10,7 @@ import Service2 from "../../components/Jpy/Service/Service2";
 
 
 
-function Jpy() {
+function Jpy(props) {
     const [loader, setloader] = useState(false)
     setTimeout(() => {
         setloader(false)
@@ -24,7 +24,7 @@ function Jpy() {
     return (
         <>
           <div className="JpyBody" >
-            <Header />
+            <Header setPage = {props.setPage} />
             <div data-aos="zoom-out" className="heroBackground">
                 <Hero/>
             </div>
