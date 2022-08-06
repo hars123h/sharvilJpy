@@ -2096,7 +2096,14 @@ a.dropdown-toggle::after {
     margin-right: 30%;
     margin-left: 50%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
+    .navElementStyle {
+        margin-right: 20%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
     .navElementStyle {
         margin-right: auto;
         margin-left: auto;
