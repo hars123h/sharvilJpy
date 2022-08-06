@@ -15,7 +15,7 @@ const Service = () => {
       <div className="shadow">
 
       </div>
-      <div className="service">
+      <div id="about" className="service">
         <div className="jpy_serviceWrapper">
           <div data-aos="slide-right" className="jpy_serviceCard1">
             <h2>IT DEVELOPMENT</h2>

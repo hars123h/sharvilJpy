@@ -14,14 +14,18 @@ const Header = () => {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav  ms-xl-auto navElementStyle "  >
                 <li className="nav-item">
-                  <a className="nav-link  pagescroll otherLink" href="#home">Home</a>
+                  <a className="nav-link  pagescroll otherLink" href="#heroSection">Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link pagescroll scrollupto otherLink" href="#about">About Us</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link pagescroll otherLink" href="#portfolio">Portfolio</a>
+                  <a className="nav-link pagescroll otherLink" href="#process">Process</a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link pagescroll otherLink" href="#service">Services</a>
                 </li>
 
                 <li className="nav-item">
@@ -46,14 +50,14 @@ const Header = () => {
             <nav className="side-nav w-100">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link  pagescroll" href="#home">Home</a>
+                  <a className="nav-link  pagescroll" href="#heroSection">Home</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link pagescroll scrollupto" href="#about">About Us</a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#portfolio">Portfolio</a>
+                  <a className="nav-link pagescroll" href="#process">Process</a>
                 </li>
 
                 <li className="nav-item">

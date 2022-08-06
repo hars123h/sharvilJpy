@@ -48,7 +48,7 @@ function Service2() {
     return (
         <div>
             {/* NUMBER WAALA SERVICE */}
-            <div className="jpy_serviceWrapper2">
+            <div id="process" className="jpy_serviceWrapper2">
                 <div className="jpy_serviceWrapper2__cards">
                     <table >
 
@@ -123,7 +123,7 @@ function Service2() {
                 </div>
             </div>
             {/* ANIMATION WAALA SERVICE- */}
-            <div className="service__webpageDesigne">
+            <div id="service" className="service__webpageDesigne">
                 <div className="service__webpageDesigne__left">
                     <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
                     <p onClick={webaPageData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
