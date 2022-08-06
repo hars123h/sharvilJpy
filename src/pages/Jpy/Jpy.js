@@ -25,11 +25,8 @@ function Jpy() {
         <>
           <div className="JpyBody" >
             <Header />
-
             <div data-aos="zoom-out" className="heroBackground">
-
-                <Hero />
-
+                <Hero/>
             </div>
             <Service />
             <Service2/>
