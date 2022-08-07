@@ -1,3 +1,5 @@
+
+
 .hero {
     padding: 19rem 5rem 0 5rem;
 }
@@ -7,6 +9,8 @@
     line-height: 80px;
     letter-spacing: 5px;
     color: white;
+    font-family:Yu Gothic !important;
+
 }
 .jpy_heroBottom {
  margin-top:11rem;
@@ -18,6 +22,8 @@
     letter-spacing: 1px;
     color: white;
     text-align: end;
+    font-family:Yu Gothic !important;
+
 }
 
 .imgContainer {
