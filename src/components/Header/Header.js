@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const Header = (props) => {
 
   return (
@@ -28,7 +29,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll otherLink" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll "> <a className='linkToJapan'  style={{cursor:"pointer"}}onClick= {()=>props.setPage?props.setPage():""} >日本語</a>| <a className = 'linkToEng' style={{cursor:"pointer"}}>Eng</a></p> 
+                  <p className="nav-link pagescroll "> <Link className='linkToJapan' to="/" >日本語</Link>| <a href="/Eng" className = 'linkToEng' style={{cursor:"pointer"}}>Eng</a></p> 
                 </li>
               </ul>
             </div>
@@ -60,7 +61,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll" href="#contact"><a onClick={()=>props.setPage?props.setPage():""}>日本語</a>｜<a>ENG</a></p>
+                  <p className="nav-link pagescroll" href="#contact"><Link to="/">日本語</Link>｜<a href="/Eng">ENG</a></p>
                 </li>
               </ul>
             </nav>

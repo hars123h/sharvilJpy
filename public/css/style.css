@@ -2096,7 +2096,14 @@ a.dropdown-toggle::after {
     margin-right: 30%;
     margin-left: 50%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
+    .navElementStyle {
+        margin-right: 20%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
     .navElementStyle {
         margin-right: auto;
         margin-left: auto;
@@ -2113,10 +2120,19 @@ a.dropdown-toggle::after {
     color: #066363;
 }
 
-.navbar-nav .nav-link:hover,
+.navbar-nav,
 .navbar .dropdown:hover .dropdown-toggle,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu.megamenu .dropdown-item:hover {
+    color: #066363 !important;
+}
+.otherLink:hover{
+    color: #066363 !important;
+}
+.linkToEng:hover{
+    color: #066363 !important;
+}
+.linkToJapan:hover{
     color: #066363 !important;
 }
 

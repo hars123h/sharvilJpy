@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Header = (props) => {
@@ -40,7 +41,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll otherLink" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll "> <a className='linkToJapan'>日本語</a>| <a className='linkToEng' onClick={pageReload} style={{cursor:"pointer"}}>Eng</a></p>
+                  <p className="nav-link pagescroll "> <Link to= "/" className='linkToJapan'>日本語</Link>| <a  href="/Eng" className='linkToEng'>Eng</a></p>
                 </li>
               </ul>
             </div>
@@ -72,7 +73,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll" href="#contact"><a style={{cursor:"pointer"}} >日本語</a>｜<a style={{cursor:"pointer"}} onClick={pageReload} >ENG</a></p>
+                  <p className="nav-link pagescroll"> <Link to= "/" className='linkToJapan'>日本語</Link>|<a href="/Eng" >ENG</a></p>
                 </li>
               </ul>
             </nav>
