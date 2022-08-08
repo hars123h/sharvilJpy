@@ -32,12 +32,8 @@ function App() {
           {
             Page==="Eng"?<English setPage={setPage} />:<Jpy setPage={setPage}/>
           }
-          <Router>
-            <Routes>
-            <Route path='/jpy' element = {Jpy} />
-            </Routes>
-          </Router>
-        
+          
+  
    
     </>
   );
