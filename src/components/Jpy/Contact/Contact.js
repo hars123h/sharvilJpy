@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Contact.css";
 import axios from "axios";
+import { Link } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -15,13 +16,13 @@ function Contact() {
     })
     function isValidEmail(email) {
         return /\S+@\S+\.\S+/.test(email);
-      }
+    }
 
     const sendContactMail = async (e) => {
         e.preventDefault()
-        if(!isValidEmail(formObj.email)){
+        if (!isValidEmail(formObj.email)) {
             toast.error("Please enter a valid email address")
-        } 
+        }
         else {
             const response = await axios({
                 method: "post",
@@ -30,28 +31,28 @@ function Contact() {
                     ...formObj
                 }
             })
-           
+
             if (response.status === 200) {
                 setFormObj({ companyName: "", name: "", email: '', phone: '', message: "" })
                 toast.success("Your mail is sent. We will contact you as soon as possible.")
                 console.log("Your mail is sent. We will contact you as soon as possible.")
             }
-           else {
+            else {
                 toast.error("Oops. Something went wrong")
                 console.log("Oops. Something went wrong")
-    
+
             }
         }
-        
+
     }
 
     const handleChange = event => {
         // if (!isValidEmail(event.target.value)) {
         //     toast.error("Not a ValidEmail")
         // } 
-    
+
         setFormObj({ ...formObj, email: event.target.value })
-      };
+    };
     return (
         <div id='contact' className='jpyContact__container'>
             <ToastContainer
@@ -135,19 +136,24 @@ function Contact() {
 
                 <ul>
                     <li className="nav-item">
-                        <a className="nav-link  pagescroll" href="#home">Home</a>
+                        <a className="nav-link  pagescroll" href="#heroSection">Home</a>
                     </li>
                     <li >
                         <a className="nav-link pagescroll scrollupto" href="#about">About Us</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link pagescroll" href="#portfolio">Portfolio</a>
+                        <a className="nav-link pagescroll" href="#process">Process</a>
                     </li>
 
                     <li className="nav-item">
                         <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                     </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link pagescroll" href="#service">Services</a>
+                    </li>
+                  
                 </ul>
 
             </div>
