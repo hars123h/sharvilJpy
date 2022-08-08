@@ -1,6 +1,6 @@
 .jpy_serviceWrapper{
     margin: 20px 20px;
-    font-family:Yu Gothic !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
 }
 
@@ -63,7 +63,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family:Yu Gothic !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
 }
 
@@ -73,7 +73,7 @@
     color: #ffff;
     padding-left: 30px;
     font-weight: 700;
-    font-family:Yu Gothic !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
     font-size: 35px;
     font: normal normal bold 40px/55px;
@@ -96,7 +96,7 @@
     height: 55rem;
     background-position: center; 
     overflow-x: hidden;
-    font-family:Yu Gothic !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
     margin-top: -20rem;
    
@@ -109,16 +109,19 @@
     color: #ffff;
     justify-content: center;
     margin-top: 15rem;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 .jpy_serviceWrapper2__cards table tr{
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
     
 }
 .jpy_serviceWrapper2__cards table tr td{
     display: flex;
     padding: 10px;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 /* .jpy_serviceWrapper2__card {
     margin-top: 10rem;
@@ -158,7 +161,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family:Yu Gothic !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
   
 
@@ -169,7 +172,7 @@
 .tabletitle{
     gap:8.5rem;
      text-align:center;
-    font-family:Yu Gothic !important;
+     font-family: 'Avenir Next LT Pro', sans-serif !important;
 
 }
 .dataRow{
@@ -182,6 +185,7 @@
     font-weight: 900;
     margin-top: 1rem;
     font-size: 25px;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 
 .service__webpageDesigne__rightBox {
@@ -196,6 +200,7 @@
     text-align: center;
     padding: 30px;
     animation:fadein 1s;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 @keyframes fadein {
 	from {
@@ -211,6 +216,7 @@
     height: auto;
     color: #000000;
     font: normal normal bold 20px/50px Avenir Next;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
     opacity: 1;
     text-align: justify; 
 }
@@ -236,6 +242,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 5px;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 .dataHidden{
     left: 0;
@@ -278,6 +285,7 @@
     align-items: center;
     margin-top: -2rem;
     cursor: pointer;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 
 .service__webpageDesigne__left {

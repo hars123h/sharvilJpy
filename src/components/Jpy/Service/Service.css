@@ -87,7 +87,7 @@
     text-align: center;
     line-height: 2;
     font-size: 18px;
-    font-family:Yu Gothic !important;
+    font-family:'Avenir Next LT Pro', sans-serif !important;
     letter-spacing: 3px;
 }
 
@@ -106,11 +106,13 @@
     font-size: 35px;
     font: normal normal bold 40px/55px;
     opacity: 1;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 
 }
 
 .jpy_serviceCard2 h2 {
     color: #000;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
 /* .service__webpageDesigne__rightBox {
     width: 867px;

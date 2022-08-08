@@ -20,6 +20,7 @@ function App() {
   const setPage =()=>{
   
     setEng(Eng === "Eng"?"Jpy":"Eng")
+    if( Eng == 'Jpy')
     window.location.reload()
   }
  
