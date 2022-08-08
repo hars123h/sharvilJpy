@@ -2,6 +2,13 @@ import React from 'react'
 
 
 const Header = (props) => {
+  const pageReload = ()=>{
+    if(props.setPage)
+    {
+      props.setPage()
+      window.location.reload(false)
+    }
+  }
   return (
     <>
 
@@ -33,7 +40,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll otherLink" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll "> <a className='linkToJapan'>日本語</a>| <a className='linkToEng' onClick={()=>props.setPage?props.setPage():""} style={{cursor:"pointer"}}>Eng</a></p>
+                  <p className="nav-link pagescroll "> <a className='linkToJapan'>日本語</a>| <a className='linkToEng' onClick={pageReload} style={{cursor:"pointer"}}>Eng</a></p>
                 </li>
               </ul>
             </div>
@@ -65,7 +72,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                 </li>
                 <li className="nav-item">
-                  <p className="nav-link pagescroll" href="#contact"><a style={{cursor:"pointer"}} >日本語</a>｜<a style={{cursor:"pointer"}} onClick={()=>props.setPage?props.setPage():""} >ENG</a></p>
+                  <p className="nav-link pagescroll" href="#contact"><a style={{cursor:"pointer"}} >日本語</a>｜<a style={{cursor:"pointer"}} onClick={pageReload} >ENG</a></p>
                 </li>
               </ul>
             </nav>

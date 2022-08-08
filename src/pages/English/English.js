@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
@@ -11,7 +11,10 @@ import WorkProcess from '../../components/WorkProcess/WorkProcess';
 
 
 function English(props) {
-   
+    // window.location.reload()
+    // window.location.reload(true);
+    // window.location.reload(false);
+ 
     return (
         <>
             <div data-bs-spy="scroll" data-bs-target=".navbar-nav" data-bs-offset="75" class="offset-nav">

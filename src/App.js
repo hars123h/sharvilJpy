@@ -20,8 +20,8 @@ function App() {
   const setPage =()=>{
   
     setEng(Eng === "Eng"?"Jpy":"Eng")
-    if( Eng == 'Jpy')
-    window.location.reload()
+    
+    
   }
  
   
@@ -32,6 +32,11 @@ function App() {
           {
             Page==="Eng"?<English setPage={setPage} />:<Jpy setPage={setPage}/>
           }
+          <Router>
+            <Routes>
+            <Route path='/jpy' element = {Jpy} />
+            </Routes>
+          </Router>
         
    
     </>
