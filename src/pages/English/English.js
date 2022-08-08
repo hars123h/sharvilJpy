@@ -18,9 +18,9 @@ function English(props) {
                 {/* Preloader */}
                 <Header setPage={props.setPage} />
                 <div class="loader">
-                    {/* <div class="loader-inner">
+                    <div class="loader-inner">
                         <div class="cssload-loader"></div>
-                    </div> */}
+                    </div>
                 </div>
                 <Hero />
                 <Services />

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 @import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
 .service {
     padding-top: 3rem;
     height: 210vh;
@@ -8,9 +9,10 @@
     background-repeat: no-repeat;
     background-size: 60%, 180% 70%, 80%;
 }
-.jpy_serviceWrapper{
+
+.jpy_serviceWrapper {
     margin: 20px 20px;
-    
+
 
 
 }
@@ -21,7 +23,9 @@
     background-size: 600px auto;
     height: 500px;
     width: 603px;
-    
+    position: relative;
+
+
 
 }
 
@@ -39,6 +43,7 @@
     height: 500px;
     width: 603px;
     margin-top: -7rem;
+    position: relative;
 
 
 
@@ -51,6 +56,8 @@
     height: 500px;
     width: 603px;
     margin-top: -7rem;
+    position: relative;
+
 
 
 
@@ -67,28 +74,34 @@
     display: flex;
     justify-content: flex-end;
     transition: all .5s ease-in-out;
-    animation:fadein 1s;
+    animation: fadein 1s;
 }
+
 @keyframes fadein {
-	from {
-		opacity:0;
+    from {
+        opacity: 0;
         transition: all .5s ease-in-out;
-	}
-	to {
-		opacity:1;
+    }
+
+    to {
+        opacity: 1;
         transition: all .5s ease-in-out;
-	}
+    }
 }
 
 .jpy_serviceCard__para p {
     width: 93%;
     color: #ffff;
     padding: 20px;
-    text-align: center;
+    text-align: start;
     line-height: 2;
     font-size: 18px;
-    font-family:'Avenir Next LT Pro', sans-serif !important;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
     letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .jpy_serviceCard__para {
@@ -106,6 +119,8 @@
     font-size: 35px;
     font: normal normal bold 40px/55px;
     opacity: 1;
+    position: absolute;
+    top: -15px;
     font-family: 'Avenir Next LT Pro', sans-serif !important;
 
 }
@@ -114,6 +129,7 @@
     color: #000;
     font-family: 'Avenir Next LT Pro', sans-serif !important;
 }
+
 /* .service__webpageDesigne__rightBox {
     width: 867px;
     height: 567px;
@@ -231,13 +247,15 @@
         opacity: 1;
 
     }
+
     .service .jpy_serviceWrapper .jpy_serviceCard1 {
         width: 268px;
-        
-    
-    
-    
+
+
+
+
     }
+
     .service__webpageDesigne__left__circle {
         width: 80px;
         height: 80px;
@@ -252,6 +270,7 @@
         margin-left: -1rem;
         cursor: pointer;
     }
+
     .service__webpageDesigne__left {
         display: flex;
         flex-direction: row;
@@ -260,16 +279,20 @@
         text-align: center;
         margin-left: 10rem;
     }
+
     .service__webpageDesigne__rightBox p {
         font: normal normal bold 16px/27px Avenir Next;
         width: 25rem;
     }
+
     .service__webpageDesigne__rightBox h3 {
         font-size: 28px;
     }
-    .service__webpageDesigne__rightBox{
+
+    .service__webpageDesigne__rightBox {
         border-radius: 45px;
     }
+
     .service {
         background-position: -31% 7%, 60% 60%, 174px -10px;
         background-size: 57%, 199% 64%, 82%;
