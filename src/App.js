@@ -33,7 +33,7 @@ function App() {
             Page==="Eng"?<English setPage={setPage} />:<Jpy setPage={setPage}/>
           }
           
-  
+        
    
     </>
   );
