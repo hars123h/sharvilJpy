@@ -6,7 +6,7 @@
             size: "cover",
             pos_x: "center",
             offset: 0
-        }, o); 
+        }, o);
         return this.each(function() {
             var a = e(this),
                 t = a.data("parallaxie");
