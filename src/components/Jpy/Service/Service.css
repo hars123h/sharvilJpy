@@ -31,7 +31,7 @@
 .service .jpy_serviceWrapper .jpyFont {
    font-family: avenir-next , sans-serif !important;
     font-weight: 700 !important;
-    letter-spacing: 8px !important;
+    letter-spacing: 6.5px !important;
 
 }
 
@@ -110,7 +110,6 @@
 }
 
 .jpy_serviceCard1 h2,
-.jpy_serviceCard2 h2,
 .jpy_serviceCard3 h2 {
     color: #ffff;
     padding-left: 30px;
@@ -123,7 +122,18 @@
    font-family: avenir-next , sans-serif !important;
 
 }
-
+.jpy_serviceCard2 h2{
+    color: #ffff;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    font: normal normal bold 40px/55px;
+    opacity: 1;
+    position: absolute;
+    top: -15px;
+    font-family: avenir-next , sans-serif !important;
+    
+}
 .jpy_serviceCard2 h2 {
     color: #000;
    font-family: avenir-next , sans-serif !important;

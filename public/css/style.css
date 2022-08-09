@@ -5192,3 +5192,12 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-image: -o-linear-gradient(left, #066636 0%, #3fb0b0 51%, #066636 100%);
     background-image: linear-gradient(to right, #066636 0%, #3fb0b0 51%, #066636 100%);
 }
+@media only screen and(min-width:1600px)
+{
+   
+    .navbar-expand-lg .navbar-nav
+    {
+        width: 49% !important;
+        gap: 69px !important;
+    }
+}
