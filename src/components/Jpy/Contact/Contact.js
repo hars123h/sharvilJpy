@@ -144,15 +144,20 @@ function Contact() {
 
                     <li className="nav-item">
                         <a className="nav-link pagescroll" href="#process">Process</a>
+
+
+                    </li>
+
+                    <li className="nav-item">
+                        <a className="nav-link pagescroll" href="#service">Services</a>
+
                     </li>
 
                     <li className="nav-item">
                         <a className="nav-link pagescroll" href="#contact">Contact Us</a>
                     </li>
 
-                    <li className="nav-item">
-                        <a className="nav-link pagescroll" href="#service">Services</a>
-                    </li>
+                   
                   
                 </ul>
 
