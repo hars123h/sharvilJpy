@@ -4367,7 +4367,7 @@ fieldset:disabled .btn {
         justify-content: flex-start
     }
     .navbar-expand-lg .navbar-nav {
-        flex-direction: row;
+        flex-direction: row
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute
@@ -4441,12 +4441,7 @@ fieldset:disabled .btn {
         display: none
     }
 }
-/* @media (min-width:1600px) {
-    .navbar-expand-lg .navbar-nav {
-        width: 46%;
-        gap: 50px;
-    }
-} */
+
 .navbar-expand {
     flex-wrap: nowrap;
     justify-content: flex-start
