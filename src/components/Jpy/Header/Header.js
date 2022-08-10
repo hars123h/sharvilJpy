@@ -69,7 +69,7 @@ const Header = (props) => {
                   <a className="nav-link pagescroll" href="#process">Process</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link pagescroll" href="#service">Service</a>
+                  <a className="nav-link pagescroll" href="#service">Services</a>
                 </li>
 
                 <li className="nav-item">

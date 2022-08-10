@@ -115,11 +115,6 @@ const Contact = () => {
                                             <div id="contactresult"></div>
                                         </fieldset>
                                     </form>
-
-
-
-
-
                                     <p className="text-size-sm color-white dtr-mt-10">*Your information is protected by Sharvil <a href="#" className="text-decoration-underline">Privacy Policy</a>.</p>
                                 </div>
 
@@ -133,17 +128,17 @@ const Contact = () => {
                                     {/* <h2 className="contactSection-heading"></h2> */}
 
 
-                                    <div className="dtr-accordion accordion dtr-mt-30" id="accordion1">
+                                    <div className="dtr-accordion accordion dtr-mt-30" id="accordionExample">
+                                    
 
-
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingOne">
+                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     Can you help my current site look more professional?
                                                 </button>
                                             </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
+                                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
 
                                                     Yes. Give us your requirements and we have experienced expertise to help you give a new professional look that really whistles!
                                                 </div>
@@ -158,7 +153,7 @@ const Contact = () => {
                                                     What If I am not satisfied by your service?
                                                 </button>
                                             </h2>
-                                            <div id="accordion1-collapseTwo2" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwoone" data-bs-parent="#accordion1">
+                                            <div id="accordion1-collapseTwo2" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwoone" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     Oh No! We really don’t hope for that. But as per our business agreement and policy, the unsatisfied customer will be paid off within 90 days(It normally takes that time to get our accounts set right and return the funds to you).
                                                 </div>
@@ -171,7 +166,7 @@ const Contact = () => {
                                                     Why should I hire a professional web development company like Sharvil ?
                                                 </button>
                                             </h2>
-                                            <div id="accordion1-collapseTwo" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwo" data-bs-parent="#accordion1">
+                                            <div id="accordion1-collapseTwo" className="accordion-collapse collapse" aria-labelledby="accordion1-headingTwo" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
                                                     With the tools and development kits available in the web, anyone with little or no knowledge about web development could create a website and have it up and running in minutes. So, what is it that the professional web development companies offer?
 
@@ -184,11 +179,11 @@ const Contact = () => {
 
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="accordion1-headingThree">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseThree" aria-expanded="false" aria-controls="accordion1-collapseThree">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion1-collapseThree" aria-expanded="false" aria-controls="accordion1-collapseThree">
                                                     What is your response turnaround time?
                                                 </button>
                                             </h2>
-                                            <div id="accordion1-collapseThree" className="accordion-collapse collapse" aria-labelledby="accordion1-headingThree" data-bs-parent="#accordion1">
+                                            <div id="accordion1-collapseThree" className="accordion-collapse collapse" aria-labelledby="accordion1-headingThree" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">We will respond to all the emails quickly. Approximately the first response can be expected within 90 minutes in our working hours. Within 24 hours all the first responses will be executed.
 
                                                 </div>
