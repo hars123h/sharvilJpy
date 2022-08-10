@@ -264,15 +264,15 @@
 @media (min-width:2000px)
 {    
     .NumberRow{
-        gap: 9.5rem;
+        gap: 15.5rem;
     }
     .tabletitle{
-        gap:8.5rem;
+        gap:14.5rem;
          text-align:center;
          font-family: avenir-next , sans-serif !important;
     
     }
     .dataRow{
-        gap: 2rem;
+        gap: 8.1rem;
     }
 }

@@ -4367,11 +4367,12 @@ fieldset:disabled .btn {
         justify-content: flex-start
     }
     .navbar-expand-lg .navbar-nav {
-        flex-direction: row
+        flex-direction: row;
+        gap: 10px;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute
-    }
+    }.navbar-expand-lg .navbar-nav
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem
