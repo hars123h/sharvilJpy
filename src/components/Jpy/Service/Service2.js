@@ -125,11 +125,11 @@ function Service2() {
             {/* ANIMATION WAALA SERVICE- */}
             <div id="service" className="service__webpageDesigne">
                 <div className="service__webpageDesigne__left">
-                    <p onClick={reactNativeData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web1.png" alt="" /></p>
-                    <p onClick={webaPageData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web2.png" alt="" /></p>
-                    <p onClick={applicationData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web3.png" alt="" /></p>
-                    <p onClick={blockChainData} className='service__webpageDesigne__left__circle'><img src="images/jpy/web4.png" alt="" /></p>
-                    <p onClick={web3Data} className='service__webpageDesigne__left__circle'><img src="images/jpy/web5.png" alt="" /></p>
+                    <p onClick={reactNativeData} className='service__webpageDesigne__left__circle webOne'><img src="images/jpy/web1.png" alt="" /></p>
+                    <p onClick={webaPageData} className='service__webpageDesigne__left__circle webTwo'><img src="images/jpy/web2.png" alt="" /></p>
+                    <p onClick={applicationData} className='service__webpageDesigne__left__circle webTwo'><img src="images/jpy/web3.png" alt="" /></p>
+                    <p onClick={blockChainData} className='service__webpageDesigne__left__circle webOne'><img src="images/jpy/web4.png" alt="" /></p>
+                    <p onClick={web3Data} className='service__webpageDesigne__left__circle webTwo'><img src="images/jpy/web5.png" alt="" /></p>
                 </div>
                 <div className="service__webpageDesigne__rightBox">
                     {Webpage === 'activeBtn' && (
