@@ -206,14 +206,10 @@
 .service__webpageDesigne__left {
     margin-right: 10rem;
 }
-.webOne img:hover{
-     transform: rotate(90deg);
-     
-}
-.webTwo img{
+.webThree img{
     transition: all .5s ease-in-out !important;
 }
-.webTwo img:hover{
+.webThree img:hover{
      transform: scale(1.2);
      transition: all .5s ease-in-out;
      
