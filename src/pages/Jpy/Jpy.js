@@ -21,7 +21,7 @@ function Jpy(props) {
            
               duration: 2000,
             offset: 10,
-            disable: 'mobile'
+            // disable: 'mobile'
         }
         )
     }, [])
