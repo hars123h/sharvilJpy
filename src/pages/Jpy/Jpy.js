@@ -17,9 +17,13 @@ function Jpy(props) {
     }, 1000)
     useEffect(() => {
         Aos.init({
-            duration: 2000,
-            offset: 10
-        })
+            
+           
+              duration: 2000,
+            offset: 10,
+            disable: 'mobile'
+        }
+        )
     }, [])
     return (
         <>

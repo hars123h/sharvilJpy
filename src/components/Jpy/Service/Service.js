@@ -18,7 +18,7 @@ const Service = () => {
       </div>
       <div id="about" className="service">
         <div className="jpy_serviceWrapper">
-          <div data-aos="slide-right" className="jpy_serviceCard1">
+          <div data-aos="fade-up" className="jpy_serviceCard1">
             <h2 className='jpyFont'>IT DEVELOPMENT</h2>
             <div className="jpy_serviceCard__para">
               <p>システム開発全般を経験豊富なエンジニアチ<br />ームを駆使して、実行することが可能です。<br /> AIからDX化のための複雑なシステムまで, <br /> さらに最新のWeb3関連の開発も可能です。<br /> ヒアリングをベースに、お客様に最適な解決 <br /> 策 をシステムで実現することができます。</p>
@@ -32,7 +32,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div data-aos="slide-left" className="jpy_serviceCard2__right">
+          <div data-aos="fade-up" className="jpy_serviceCard2__right">
             <div className="jpy_serviceCard3">
               <h2 className='jpyFont'>GLOBAL BUSINESS</h2>
               <div className="jpy_serviceCard__para">
