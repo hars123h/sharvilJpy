@@ -13,13 +13,13 @@ const Hero = () => {
             <div className="jpy_heroBottom">
                 <div className="container">
                     <div className="row ">
-                        <div className="col-md-7">
+                        <div className="col-lg-7 col-md-8 ">
                             <h3>ITを活用しながら事業における課題を <br />
                                 発見,解決し、顧客の最適解を見出し,実行します。 <br />
                                 必ずしもITを活用するのではなくハンズオンで、 <br />
                                 サービス開発,事業開発,成長など高い視点からサポート</h3>
                         </div>
-                        <div className="col-md-5 imgContainer">
+                        <div className=" col-lg-5 col-md-4 imgContainer">
                             <img className="img-fluid" src="/images/jpy/hero.png" alt="" />
                         </div>
                     </div>

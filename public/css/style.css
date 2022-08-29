@@ -5341,3 +5341,11 @@ ul.latest_news li a:focus+span.defaultcolor {
         width: 57%;
     }
 }
+@media only screen and (max-width: 1200px) {
+   .jpyNavbar li a{
+        font-size: 15px !important;
+   }
+   .jpyNavbar{
+    gap: 0 !important;
+   }
+}

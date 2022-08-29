@@ -42,3 +42,101 @@ font-family: avenir-next , sans-serif !important;
 .hero__main{
     /* background-image: url("../../../img/jpy/herobg.png"); */
 }
+@media screen and (max-width: 680px) {
+    .jpyBottomNav ul li {
+        height: 0px !important;
+        text-align: center;
+        font: normal normal bold 30px/41px Avenir Next;
+        font-size: 15px !important;
+        letter-spacing: 0px;
+        opacity: 1;
+        font-family: avenir-next, sans-serif !important;
+    }
+    .jpyBottomNav{
+        margin-bottom: 2.7rem !important;
+    }
+    
+
+}
+@media screen and (max-width: 425px) {
+   
+    .jpy_heroBottom img {
+        margin-top: 21px !important;
+        width: 271px;
+        height: auto;
+    }
+    .hero h2{
+        font-size: 29px !important;
+    }
+    .jpyBottomNav ul li {
+      
+        font-size: 12px !important;
+        
+    }
+   
+    
+
+}
+@media screen and (max-width: 390px) {
+    
+    .jpyBottomNav ul li {
+      
+        font-size: 10px !important;
+        
+    }
+
+}
+@media screen and (max-width: 350px) {
+  .jpyBottomNav  .nav-link{
+    padding: .5rem .5rem;
+  }
+
+}
+@media screen and (max-width: 340px) {
+    
+    .hero h2{
+        font-size: 23px;
+    }
+   
+
+}
+    @media screen and (max-width: 992px) {
+        
+        .jpy_heroBottom h3{
+            font-size: 15px !important;
+        }
+    
+
+    }
+    @media only screen and (max-width: 767px) {
+        
+        .jpy_heroBottom img {
+            margin-top: 31px !important;
+            width: 254px !important;
+
+         
+        }
+        .heroBackground {
+            background-size: cover !important;
+            background-position: top;
+         }
+          
+    .hero h2{
+        font-size: 35px;
+    }
+    }
+    @media only screen and (max-width: 767px)
+    {
+             .hero h2{
+                font-size: 26px !important;
+             }
+    }
+    @media only screen and (max-width: 460px)
+    {
+        .hero {
+            padding: 18rem 2rem 0 1rem;
+        }
+        .jpy_heroBottom h3{
+            font-size: 13px !important;
+        }
+    }

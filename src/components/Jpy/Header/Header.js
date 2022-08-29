@@ -21,7 +21,7 @@ const Header = (props) => {
               <img src="images/logo2.png" alt="logo" className="logo-scrolled" />
             </a>
             <div className="collapse navbar-collapse">
-              <ul className="navbar-nav  ms-xl-auto navElementStyle "  >
+              <ul className="navbar-nav  ms-xl-auto navElementStyle jpyNavbar "  >
                 <li className="nav-item">
                   <a className="nav-link  pagescroll otherLink" href="#heroSection">Home</a>
                 </li>

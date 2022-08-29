@@ -100,7 +100,7 @@ function Contact() {
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-email">メールアドレス</label>
+                        <label  class="col-sm-2 col-form-email abovtextarea">メールアドレス</label>
                         <div class="col-sm-10">
                             <input
                                 type="email"
@@ -113,7 +113,7 @@ function Contact() {
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">お問い合わせ内容</label>
+                        <label class="col-sm-2 col-form-label abovtextarea">お問い合わせ内容</label>
                         <div class="col-sm-10">
                             <textarea
                                 type="text"

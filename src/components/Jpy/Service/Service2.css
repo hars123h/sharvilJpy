@@ -1,17 +1,20 @@
-@font-face { font-family: avenir-next; 
-    src: url('../../../webfonts/AvenirNext-Bold.ttf'); } 
+@font-face {
+    font-family: avenir-next;
+    src: url('../../../webfonts/AvenirNext-Bold.ttf');
+}
+
 .jpy_serviceWrapper2 {
     background-image: url("../../../img/jpy/service2.png");
     background-repeat: no-repeat;
     width: 100%;
     background-size: 120% 100%;
     height: 55rem;
-    background-position: center; 
+    background-position: center;
     overflow-x: hidden;
-    font-family: avenir-next!important;
+    font-family: avenir-next !important;
 
     margin-top: -20rem;
-   
+
 }
 
 .jpy_serviceWrapper2__cards {
@@ -21,22 +24,25 @@
     color: #ffff;
     justify-content: center;
     margin-top: 15rem;
-    font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
-.jpy_serviceWrapper2__cards table tr{
+
+.jpy_serviceWrapper2__cards table tr {
     display: flex;
     justify-content: center;
     padding: 10px;
     /* font-family: avenir-next , sans-serif !important; */
-    font-family: avenir-next!important;
-    
+    font-family: avenir-next !important;
+
 }
-.jpy_serviceWrapper2__cards table tr td{
+
+.jpy_serviceWrapper2__cards table tr td {
     display: flex;
     padding: 10px;
     /* font-family: avenir-next , sans-serif !important; */
-    font-family: avenir-next!important;
+    font-family: avenir-next !important;
 }
+
 /* .jpy_serviceWrapper2__card {
     margin-top: 10rem;
     display: flex;
@@ -64,7 +70,7 @@
     margin-bottom: 30px;
 } */
 
-.jpy_serviceWrapper2__card__circle p{
+.jpy_serviceWrapper2__card__circle p {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -75,22 +81,25 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: avenir-next , sans-serif !important;
-   
+    font-family: avenir-next, sans-serif !important;
 
-  
+
+
 
 }
-.NumberRow{
+
+.NumberRow {
     gap: 9.5rem;
 }
-.tabletitle{
-    gap:8.5rem;
-     text-align:center;
-     font-family: avenir-next , sans-serif !important;
+
+.tabletitle {
+    gap: 8.5rem;
+    text-align: center;
+    font-family: avenir-next, sans-serif !important;
 
 }
-.dataRow{
+
+.dataRow {
     gap: 2rem;
 }
 
@@ -100,7 +109,7 @@
     font-weight: 900;
     margin-top: 1rem;
     font-size: 25px;
-    font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .service__webpageDesigne__rightBox {
@@ -114,16 +123,18 @@
     flex-direction: column;
     text-align: center;
     padding: 30px;
-    animation:fadein 1s;
-    font-family: avenir-next , sans-serif !important;
+    animation: fadein 1s;
+    font-family: avenir-next, sans-serif !important;
 }
+
 @keyframes fadein {
-	from {
-		opacity:0;
-	}
-	to {
-		opacity:1;
-	}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .service__webpageDesigne__rightBox p {
@@ -131,25 +142,31 @@
     height: auto;
     color: #000000;
     font: normal normal bold 20px/50px Avenir Next;
-    font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
     opacity: 1;
-    text-align: justify; 
+    text-align: justify;
 }
-.webthree{
+
+.webthree {
     letter-spacing: 2.5px;
 }
-.blockchain{
+
+.blockchain {
     letter-spacing: 3.2px;
 }
-.application{
+
+.application {
     letter-spacing: 4.05px;
 }
-.native{
+
+.native {
     letter-spacing: 5px;
 }
-.web{
+
+.web {
     letter-spacing: 3.18px;
 }
+
 .service__webpageDesigne__rightBox h3 {
     color: #000000;
     letter-spacing: 3px;
@@ -157,22 +174,24 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 5px;
-    font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
-.dataHidden{
+
+.dataHidden {
     left: 0;
     opacity: 0;
     position: absolute;
     top: 0;
     transition: visibility 0s 750ms, opacity 750ms cubic-bezier(.645, .045, .355, 1);
     visibility: hidden;
-    
+
 }
-.datashow{
+
+.datashow {
     opacity: 1;
     transition: visibility 0s linear 0s, opacity 750ms cubic-bezier(.645, .045, .355, 1) 750ms;
     visibility: visible;
-    
+
 }
 
 
@@ -183,6 +202,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 10rem;
+    position: relative;
 
 
 
@@ -200,91 +220,230 @@
     align-items: center;
     margin-top: -2rem;
     cursor: pointer;
-    font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .service__webpageDesigne__left {
     margin-right: 10rem;
 }
-.webThree img{
+
+.webThree img {
     transition: all .5s ease-in-out !important;
 }
-.webThree img:hover{
-     transform: scale(1.2);
-     transition: all .5s ease-in-out;
-     
+
+.webThree img:hover {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+
 }
 
 
 
+@media screen and (max-width:500px) {
+    .service__webpageDesigne__rightBox h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
 
+    .service__webpageDesigne__rightBox p {
+        font: normal normal bold 13px/30px Avenir Next !important;
+    }
+}
+@media screen and (max-width:1200px) {
+    .jpy_serviceWrapper2 {
+        overflow-y: hidden !important;
+        /* background-size: 225% 100% !important; */
+    }
+}
+
+@media screen and (max-width:400px) {
+    .service__webpageDesigne__rightBox h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .service__webpageDesigne__rightBox p {
+        font: normal normal bold 10px/30px Avenir Next !important;
+    }
+}
 
 @media screen and (max-width:1024px) {
     .service__webpageDesigne {
-        flex-direction: column;
+        flex-direction: column !important;
 
 
     }
 
     .service__webpageDesigne__left {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-left: 10rem;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: 8.5rem;
+
     }
 
     .service__webpageDesigne__rightBox p {
         font: normal normal bold 18px/35px Avenir Next;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
     }
 
-    .service__webpageDesigne__rightBox {
-        width: auto;
+    @media screen and (max-width: 1024px) {
+        .service__webpageDesigne__rightBox {
+            width: auto;
+            padding: 2rem 5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
     }
 
 }
 
-@media screen and (max-width:1286px) {
-    .tabletitle{
-        gap:8.5rem !important;
+@media screen and (max-width:1195px) {
+    .jpy_serviceWrapper2__cards {
+        overflow-x: auto;
+        min-width: 928px;
+        padding-right: 37rem;
+        padding-left: 45rem;
     }
-    .dataRow{
+
+    .NumberRow,
+    .tabletitle,
+    .dataRow {
+        padding-right: 25rem !important;
+        padding-left: 25rem !important;
+    }
+}
+
+
+
+@media screen and (max-width:1286px) {
+    .tabletitle {
+        gap: 8.5rem !important;
+    }
+
+    .dataRow {
         gap: 1rem !important;
     }
-    .NumberRow{
-        gap:8.7rem !important;
+
+    .NumberRow {
+        gap: 8.7rem !important;
     }
+
     .jpy_serviceWrapper2 {
         margin-top: -22rem !important;
     }
-    
+
 }
+
 @media screen and (max-width:1265px) {
-    .tabletitle{
-        gap:9.5rem !important;
+    .tabletitle {
+        gap: 9.5rem !important;
     }
-    .dataRow{
+
+    .dataRow {
         /* gap: 1rem !important; */
     }
-    .NumberRow{
-        gap:9.7rem !important;
+
+    .NumberRow {
+        gap: 9.7rem !important;
     }
-    
+
 }
-@media (min-width:2000px)
-{    
-    .NumberRow{
+
+@media (min-width:2000px) {
+    .NumberRow {
         gap: 15.5rem;
     }
-    .tabletitle{
-        gap:14.5rem;
-         text-align:center;
-         font-family: avenir-next , sans-serif !important;
-    
+
+    .tabletitle {
+        gap: 14.5rem;
+        text-align: center;
+        font-family: avenir-next, sans-serif !important;
+
     }
-    .dataRow{
+
+    .dataRow {
         gap: 8.1rem;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .jpy_serviceWrapper2 {
+        /* overflow-y: hidden !important; */
+        background-size: 225% 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .service__webpageDesigne__left p {
+        width: 78px !important;
+        height: 78px !important;
+    }
+    
+    .service__webpageDesigne__left p img {
+        height: 48px !important;
+        width: 48px !important;
+    }
+    
+    .service__webpageDesigne__rightBox {
+        height: fit-content !important;
+        border-radius: 50px !important;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .service__webpageDesigne__left p {
+        width: 58px !important;
+        height: 58px !important;
+    }
+    
+    .service__webpageDesigne__left p img {
+        height: 38px !important;
+        width: 38px !important;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .jpy_serviceWrapper2 {
+        overflow-y: hidden !important;
+        background-size: 300% 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 455px) {
+    .jpy_serviceWrapper2 {
+        margin-top: -45rem !important;
+    }
+
+}
+
+@media screen and (max-width: 595px) {
+    .jpy_serviceWrapper2 {
+        margin-top: -40rem !important;
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+    .jpy_serviceWrapper2 {
+        overflow-y: hidden !important;
+        background-size: 320% 100% !important;
+        margin-top: -20rem;
+    }
+
+    .service__webpageDesigne__rightBox {
+        border-radius: 70px !important;
+    }
+
+    .service {
+        padding-top: 0rem !important;
+        height: 145vh !important;
     }
 }

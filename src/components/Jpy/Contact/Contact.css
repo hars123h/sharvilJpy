@@ -1,5 +1,8 @@
-@font-face { font-family: avenir-next; 
-    src: url('../../../webfonts/AvenirNext-Bold.ttf'); } 
+@font-face {
+    font-family: avenir-next;
+    src: url('../../../webfonts/AvenirNext-Bold.ttf');
+}
+
 .jpyContact form {
     color: black;
     width: 80%;
@@ -21,8 +24,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   /* font-family: avenir-next , sans-serif !important; */
+    /* font-family: avenir-next , sans-serif !important; */
 }
+
 .jpyContact__container {
     display: flex;
     align-items: center;
@@ -31,7 +35,7 @@
     width: 100%;
     height: auto;
     flex-direction: column;
-   /* font-family: avenir-next , sans-serif !important; */
+    /* font-family: avenir-next , sans-serif !important; */
 
 }
 
@@ -54,31 +58,34 @@ textarea {
 
 
 }
-.col-sm-10 input::-webkit-input-placeholder{
+
+.col-sm-10 input::-webkit-input-placeholder {
     display: none;
     opacity: 0;
-   /* font-family: avenir-next , sans-serif !important; */
+    /* font-family: avenir-next , sans-serif !important; */
 }
-.col-sm-10 textarea::-webkit-input-placeholder{
+
+.col-sm-10 textarea::-webkit-input-placeholder {
     display: none;
     opacity: 0;
-   /* font-family: avenir-next , sans-serif !important; */
+    /* font-family: avenir-next , sans-serif !important; */
 }
 
 .form-group {
     display: flex;
     align-items: center;
     justify-content: center;
-   /* font-family: avenir-next , sans-serif !important; */
+    /* font-family: avenir-next , sans-serif !important; */
 }
 
 .form-group div {
     flex: .5;
 }
+
 .form-group label {
     font-size: 20px;
     width: 200px;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyContact__input form input:focus {
@@ -90,7 +97,7 @@ textarea {
     color: #000000;
     opacity: 1;
     font-weight: 600;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyContact h2 {
@@ -102,27 +109,30 @@ textarea {
     font-weight: 700;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
-   font-family: avenir-next , sans-serif !important;
-    
+    font-family: avenir-next, sans-serif !important;
+
 }
-#contact{
+
+#contact {
     padding-top: 5rem;
 }
-.jpyBottomNav{
+
+.jpyBottomNav {
     padding-bottom: 1.5rem;
 }
+
 .jpyBottomNav ul {
     display: flex;
     margin-top: 5rem;
     justify-content: space-evenly;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyContact__button {
     display: flex;
     justify-content: space-between;
     margin-right: 2rem;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 
 }
 
@@ -137,55 +147,100 @@ textarea {
     border: none;
     letter-spacing: 5px;
     color: #FFFFFFFA;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyBottomNav ul li {
-    
+
     height: 41px;
     text-align: center;
     font: normal normal bold 30px/41px Avenir Next;
     font-size: 25px;
     letter-spacing: 0px;
     opacity: 1;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyBottomNav ul li a {
     text-decoration: none;
     color: #000000;
     font-weight: 700;
-   font-family: avenir-next , sans-serif !important;
+    font-family: avenir-next, sans-serif !important;
 }
 
 .jpyBottomNav ul li a:hover {
     color: #066363;
 }
+
 @media screen and (max-width:775px) {
-   
+
     .jpyContact form {
         color: black;
-        width: 100%;
+
     }
-    .jpyContact form label{
-        font-size: 10px;
+    .abovtextarea{
+        margin-left: 2rem;
     }
-    .jpyContact form h2{
-        font-size: 20px;
+
+    .jpyContact form label {
+        /* font-size: 10px; */
+    }
+
+    .jpyContact form h2 {
+        /* font-size: 20px;
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem; */
+    }
+
+    .form-group {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        left: 0;
+        position: relative;
+
+    }
+
+    .form-group input {
+        margin-top: 3rem;
+
+    }
+    .form-group textarea {
+        margin-top: 3rem;
+
+    }
+
+    .form-group label {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
     }
 }
-@media screen and (max-width:505px) {
+@media screen and (max-width: 565px) {
     .form-group label {
-        display:none;
+        position: absolute !important;
+        left: -32px !important;
+        top: -4px !important;
+        font-size: 19px;
     }
-    .col-sm-10 input::-webkit-input-placeholder{
-        
-        opacity: 0.8;
+    .jpyContact h2{
+        font-size: 25px;
     }
-    .col-sm-10 textarea::-webkit-input-placeholder{
-        
-        opacity: 0.8;
+    .jpyContact__button button{
+        margin-left: 3rem;
     }
+}
+@media screen and (max-width: 365px) {
+    /* .form-group label {
+        position: absolute !important;
+        left: -22px !important;
+        top: -4px;
+    } */
+    .jpyContact form {
+        border-radius: 30px;
+    }
+    .jpyBottomNav{
+        padding-bottom: 10rem;
+    }
+    
 }
