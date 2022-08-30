@@ -305,10 +305,14 @@
 
 @media screen and (max-width:1195px) {
     .jpy_serviceWrapper2__cards {
-        overflow-x: auto;
+        /* overflow-x: scroll !important; */
         min-width: 928px;
-        padding-right: 37rem;
-        padding-left: 45rem;
+        /* padding-right: 10rem; */
+        padding-left: 25rem;
+    }
+    .jpy_serviceWrapper2 {
+        /* margin-top: -40rem !important; */
+        overflow-x: auto !important;
     }
 
     .NumberRow,
@@ -427,6 +431,7 @@
 @media screen and (max-width: 595px) {
     .jpy_serviceWrapper2 {
         margin-top: -40rem !important;
+        overflow-x: auto !important;
     }
 
 }
