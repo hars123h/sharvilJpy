@@ -438,14 +438,14 @@
 }
 @media screen and (max-width: 415px) {
     .jpy_serviceWrapper2 {
-        margin-top: -82rem !important;
+        margin-top: -62rem !important;
         /* overflow-x: auto !important; */
     }
 
 }
 @media screen and (max-width: 395px) {
     .jpy_serviceWrapper2 {
-        margin-top: -70rem !important;
+        margin-top: -50rem !important;
        
     }
 
