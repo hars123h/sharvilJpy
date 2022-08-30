@@ -305,21 +305,22 @@
 
 @media screen and (max-width:1195px) {
     .jpy_serviceWrapper2__cards {
-        /* overflow-x: scroll !important; */
-        min-width: 928px;
+       
+        min-width: 1300px;
+        height: 35rem;
         /* padding-right: 10rem; */
-        padding-left: 25rem;
+        /* padding-left: 25rem; */
     }
     .jpy_serviceWrapper2 {
-        /* margin-top: -40rem !important; */
+       
         overflow-x: auto !important;
     }
 
     .NumberRow,
     .tabletitle,
     .dataRow {
-        padding-right: 25rem !important;
-        padding-left: 25rem !important;
+        /* padding-right: 25rem !important; */
+        /* padding-left: 25rem !important; */
     }
 }
 
@@ -339,7 +340,7 @@
     }
 
     .jpy_serviceWrapper2 {
-        margin-top: -22rem !important;
+        margin-top: -12rem !important;
     }
 
 }
@@ -431,7 +432,28 @@
 @media screen and (max-width: 595px) {
     .jpy_serviceWrapper2 {
         margin-top: -40rem !important;
-        overflow-x: auto !important;
+        /* overflow-x: auto !important; */
+    }
+
+}
+@media screen and (max-width: 415px) {
+    .jpy_serviceWrapper2 {
+        margin-top: -84rem !important;
+        /* overflow-x: auto !important; */
+    }
+
+}
+@media screen and (max-width: 395px) {
+    .jpy_serviceWrapper2 {
+        margin-top: -70rem !important;
+       
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .jpy_serviceWrapper2 {
+        margin-top: -40rem !important;
+       
     }
 
 }
@@ -450,5 +472,13 @@
     .service {
         padding-top: 0rem !important;
         height: 145vh !important;
+    }
+}
+@media screen and (max-width: 385px) {
+    .jpy_serviceWrapper2__cards {
+       
+        min-width: 1228px !important;
+        
+      
     }
 }
